@@ -1,0 +1,18 @@
+{
+    "meta": {
+      "tile": "List of categories",
+      "date": "November 2024"
+    },
+"locaties": [
+    {
+      "locatieID": 1,
+      "MarketID":101,
+      "Name": "PittePerk"
+    },
+    {
+      "locatieID": 2,
+      "MarketID":102,
+      "Name": "Slagerij Wisse"
+    }
+  ]
+}

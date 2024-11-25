@@ -1,7 +1,45 @@
 {
   "meta": {
-    "tile": "List of animals",
-    "date": "September 2024"
+    "tile": "List of categories",
+    "date": "November 2024"
   },
-  "animals" : ["dog", "cat", "elephant", "lion"]
+  "categorys": [
+    {
+      "CategoryID": 1,
+      "Name": "Kaas"
+    },
+    {
+      "CategoryID": 2,
+      "Name": "Melk"
+    },
+    {
+      "CategoryID": 3,
+      "Name": "Eieren"
+    },
+    {
+      "CategoryID": 4,
+      "Name": "Groente"
+    },
+    {
+      "CategoryID": 5,
+      "Name": "Fruit"
+    },
+    {
+      "CategoryID": 6,
+      "Name": "Vlees"
+    },
+    {
+      "CategoryID": 7,
+      "Name": "Kruiden"
+    }
+  ],
+
+    "MarketCategory": [
+      { "MarketID": 101, "CategoryID": 1 },
+      { "MarketID": 101, "CategoryID": 2 },
+      { "MarketID": 102, "CategoryID": 3 },
+      { "MarketID": 105, "CategoryID": 1 },
+      { "MarketID": 105, "CategoryID": 5 }
+    ]
 }
+
