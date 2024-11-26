@@ -1,0 +1,36 @@
+{
+    "meta": {
+      "tile": "List of locations",
+      "date": "November 2024"
+    },
+    "locations": [
+        {
+            "locationID": 1,
+            "Name": "PittePerk"
+        },
+        {
+            "locationID": 2,
+            "Name": "Slagerij Wisse"
+        },
+        {
+            "locationID": 3,
+            "Name": "Bakkerij Koppejan"
+        },
+        {
+            "locationID": 4,
+            "Name": "MelkTap Torenzicht"
+        },
+        {
+            "locationID": 5,
+            "Name": "VitamineBoer De Kragge"
+        }
+    ],
+  
+      "MarketLocation": [
+        { "MarketID": 101, "LocationID": 1 },
+        { "MarketID": 102, "LocationID": 2 },
+        { "MarketID": 103, "LocationID": 3 },
+        { "MarketID": 104, "LocationID": 4 },
+        { "MarketID": 105, "LocationID": 5 }
+      ]
+  }
