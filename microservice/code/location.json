@@ -32,10 +32,25 @@
     ],
   
       "MarketLocation": [
-        { "MarketID": 101, "LocationID": 1 },
-        { "MarketID": 102, "LocationID": 2 },
-        { "MarketID": 103, "LocationID": 3 },
-        { "MarketID": 104, "LocationID": 4 },
-        { "MarketID": 105, "LocationID": 5 }
-      ]
+    {
+      "MarketID": 101,
+      "LocationID": 1
+    },
+    {
+      "MarketID": 102,
+      "LocationID": 2
+    },
+    {
+      "MarketID": 103,
+      "LocationID": 3
+    },
+    {
+      "MarketID": 104,
+      "LocationID": 4
+    },
+    {
+      "MarketID": 105,
+      "LocationID": 5
+    }
+  ]
   }

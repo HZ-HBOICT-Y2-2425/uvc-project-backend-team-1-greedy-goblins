@@ -1,13 +1,17 @@
 import express from "express";
 import {
-  responseExample,
-  updateCategory,
+  GetCategorys,
+  AddCategory,
   getCategoryById,
-  responseTest,
+  deleteCategory,
+  updateCategory,
 } from "../controllers/categoryController.js";
 import {
-  responseLocation,
+  GetLocations,
   FetchLocationById,
+  AddLocation,
+  deleteLocations,
+  updateLocation,
 } from "../controllers/locationController.js";
 import { marketInfo, marketInfoList } from "../controllers/marketInfoController.js";
 import { checkName } from "../middleware/exampleMiddleware.js";
@@ -19,14 +23,18 @@ router.get("/", (req, res) => {
 });
 
 // category routes
-router.get("/category", checkName, responseExample);
-router.post("/updateCategory", checkName, updateCategory);
+router.get("/categorys", checkName, GetCategorys);
 router.get("/category/:id", checkName, getCategoryById);
-router.get("/MarketCategory/:marketId", checkName, responseTest);
+router.post("/category/add", checkName, AddCategory);
+router.delete("/category/delete/:id", checkName, deleteCategory);
+router.put("/category/update/:id", checkName, updateCategory);
 
 // location routes
-router.get("/location", checkName, responseLocation);
-router.get("/marketLocation/:id", checkName, FetchLocationById);
+router.get("/locations", checkName, GetLocations);
+router.get("/location/:id", checkName, FetchLocationById);
+router.post("/location/add", checkName, AddLocation);
+router.delete("/location/delete/:id", checkName, deleteLocations);
+router.put("/location/update/:id", checkName, updateLocation);
 
 // marketInfo routes
 // Met deze routes roepen we de tabel aan die de info samenvoegt van de markt, locatie en categorie
