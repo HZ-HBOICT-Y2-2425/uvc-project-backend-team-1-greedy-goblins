@@ -7,19 +7,17 @@ const defaultData = {
 };
 const db = await JSONFilePreset("location.json", defaultData);
 const locations = db.data.locations;
-const MarketLocation = db.data.MarketLocation;
 
-export async function responseLocation(req, res) {
+export async function GetLocations(req, res) {
   res.status(200).send(locations);
 }
 
-export async function updateLocation(req, res) {
+export async function AddLocation(req, res) {
   let id = parseInt(req.query.id);
-  let marketId = parseInt(req.query.MarketID);
   let name = req.query.Name;
 
-  if (!id || !marketId || !name) {
-    return res.status(400).send("LocationID, MarketID, and Name are required.");
+  if (!id || !name) {
+    return res.status(400).send("LocationID and Name are required.");
   }
 
   let existingLocation = locations.find(
@@ -31,7 +29,6 @@ export async function updateLocation(req, res) {
 
   let newLocation = {
     LocationID: id,
-    MarketID: marketId,
     Name: name,
   };
 
@@ -50,4 +47,48 @@ export async function FetchLocationById(req, res) {
   } else {
     res.status(404).send("location not found");
   }
+}
+
+// delete the location by id
+export async function deleteLocations(req, res) {
+  let id = parseInt(req.params.id);
+  let locationIndex = locations.findIndex(
+    (location) => location.locationID === id
+  );
+
+  if (locationIndex !== -1) {
+    locations.splice(locationIndex, 1);
+    await db.write();
+    res.status(200).send(`deleted location with ID ${id}`);
+  } else {
+    res.status(404).send(`cannot find ID ${id}`);
+  }
+}
+
+// update the location of the market by using the following param in postman
+//
+// name | UpdatedName
+export async function updateLocation(req, res) {
+  let id = parseInt(req.params.id);
+  let name = req.query.name;
+
+  if (!id || !name) {
+    return res.status(400).send(`ID and/or name are required inputs`);
+  }
+
+  let existingLocation = locations.find(
+    (location) => location.LocationID === id
+  );
+
+  if (!existingLocation) {
+    return res.status(404).send(`No location found with ID ${id}`);
+  }
+
+  existingLocation.Name = name;
+  await db.write();
+
+  return res.status(200).json({
+    message: "Location updated successfully",
+    location: existingLocation,
+  });
 }

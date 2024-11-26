@@ -53,7 +53,7 @@ export async function marketInfo(req, res) {
 
   const response = {
     marketID: marketID,
-    marketName: location.Name,
+    location: location.Name,
     categories: marketCategories,
   };
 
