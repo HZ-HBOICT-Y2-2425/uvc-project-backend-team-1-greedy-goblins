@@ -7,24 +7,27 @@
         {
             "locationID": 1,
             "Name": "PittePerk",
-            "Description": "PittePerk is een gezellige melkboerderij in het centrum van Middelburg. Hier kun je terecht voor een heerlijke kop melk of een lekker broodje. Ook kun je hier terecht voor een gezellige high tea of high coffee. Kom gezellig langs en geniet van de heerlijke sfeer bij PittePerk."
+            "Description": "PittePerk is een gezellige melkboerderij in het buitengebied van Middelburg. Hier kun je terecht voor een heerlijke kop melk of een lekker broodje. Ook kun je hier terecht voor een gezellige high tea of high coffee. Kom gezellig langs en geniet van de heerlijke sfeer bij PittePerk."
         },
         {
             "locationID": 2,
             "Name": "Slagerij Wisse",
-            "Description": "Slagerij Wisse is een traditionele slagerij in het hart van Middelburg. Hier vind je een breed assortiment aan vleeswaren en specialiteiten. De slagerij staat bekend om zijn ambachtelijke producten en uitstekende service. Bezoek Slagerij Wisse voor de beste kwaliteit vlees."
+            "Description": "Slagerij Wisse is een traditionele slagerij in het hart van Meliskerke. Hier vind je een breed assortiment aan vleeswaren en specialiteiten. De slagerij staat bekend om zijn ambachtelijke producten en uitstekende service. Bezoek Slagerij Wisse voor de beste kwaliteit vlees."
         },
         {
             "locationID": 3,
-            "Name": "Bakkerij Koppejan"
+            "Name": "Bakkerij Koppejan",
+            "Description": "Bakkerij Koppejan is een ambachtelijke bakkerij in het centrum van Meliskerke. Hier kun je terecht voor versgebakken brood, gebak en andere lekkernijen. De bakkerij staat bekend om zijn heerlijke producten en uitstekende service. Kom langs en proef de lekkerste broodjes van Middelburg."
         },
         {
             "locationID": 4,
-            "Name": "MelkTap Torenzicht"
+            "Name": "MelkTap Torenzicht",
+            "Description": "MelkTap Torenzicht is een gezellige melktap in het buitengebied van Grijpskerke. Hier kun je terecht voor verse melk, yoghurt en andere zuivelproducten. De melktap staat bekend om zijn verse producten en vriendelijke service. Kom langs en geniet van de heerlijke zuivel van MelkTap Torenzicht."
         },
         {
             "locationID": 5,
-            "Name": "VitamineBoer De Kragge"
+            "Name": "VitamineBoer De Kragge",
+            "Description": "VitamineBoer De Kragge is een biologische boerderij in het buitengebied van Meliskerke. Hier kun je tevens terecht voor verse groenten, fruit en andere biologische producten. De boerderij staat bekend om zijn verse producten en duurzame werkwijze. Kom langs en proef de lekkerste groenten van VitamineBoer De Kragge."
         }
     ],
   
