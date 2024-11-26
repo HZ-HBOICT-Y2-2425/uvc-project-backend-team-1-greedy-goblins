@@ -9,7 +9,7 @@ import {
   responseLocation,
   FetchLocationById,
 } from "../controllers/locationController.js";
-import { marketInfo } from "../controllers/mainController.js";
+import { marketInfo, marketInfoList } from "../controllers/marketInfoController.js";
 import { checkName } from "../middleware/exampleMiddleware.js";
 const router = express.Router();
 
@@ -28,7 +28,9 @@ router.get("/MarketCategory/:marketId", checkName, responseTest);
 router.get("/location", checkName, responseLocation);
 router.get("/marketLocation/:id", checkName, FetchLocationById);
 
-// main routes
+// marketInfo routes
+// Met deze routes roepen we de tabel aan die de info samenvoegt van de markt, locatie en categorie
+router.get("/MarketInfo", checkName, marketInfoList);
 router.get("/MarketInfo/:id", checkName, marketInfo);
 
 export default router;
