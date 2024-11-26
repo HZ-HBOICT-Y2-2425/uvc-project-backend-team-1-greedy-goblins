@@ -6,11 +6,13 @@
     "locations": [
         {
             "locationID": 1,
-            "Name": "PittePerk"
+            "Name": "PittePerk",
+            "Description": "PittePerk is een gezellige melkboerderij in het centrum van Middelburg. Hier kun je terecht voor een heerlijke kop melk of een lekker broodje. Ook kun je hier terecht voor een gezellige high tea of high coffee. Kom gezellig langs en geniet van de heerlijke sfeer bij PittePerk."
         },
         {
             "locationID": 2,
-            "Name": "Slagerij Wisse"
+            "Name": "Slagerij Wisse",
+            "Description": "Slagerij Wisse is een traditionele slagerij in het hart van Middelburg. Hier vind je een breed assortiment aan vleeswaren en specialiteiten. De slagerij staat bekend om zijn ambachtelijke producten en uitstekende service. Bezoek Slagerij Wisse voor de beste kwaliteit vlees."
         },
         {
             "locationID": 3,
