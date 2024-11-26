@@ -15,9 +15,12 @@ export async function GetLocations(req, res) {
 export async function AddLocation(req, res) {
   let id = parseInt(req.query.id);
   let name = req.query.Name;
+  let desc = req.query.Description;
 
-  if (!id || !name) {
-    return res.status(400).send("LocationID and Name are required.");
+  if (!id || !name || !desc) {
+    return res
+      .status(400)
+      .send("LocationID, Name and Description are required.");
   }
 
   let existingLocation = locations.find(
@@ -28,8 +31,9 @@ export async function AddLocation(req, res) {
   }
 
   let newLocation = {
-    LocationID: id,
+    locationID: id,
     Name: name,
+    Description: desc,
   };
 
   locations.push(newLocation);
@@ -49,7 +53,6 @@ export async function FetchLocationById(req, res) {
   }
 }
 
-// delete the location by id
 export async function deleteLocations(req, res) {
   let id = parseInt(req.params.id);
   let locationIndex = locations.findIndex(
@@ -65,14 +68,12 @@ export async function deleteLocations(req, res) {
   }
 }
 
-// update the location of the market by using the following param in postman
-//
-// name | UpdatedName
 export async function updateLocation(req, res) {
   let id = parseInt(req.params.id);
   let name = req.query.name;
+  let desc = req.query.description;
 
-  if (!id || !name) {
+  if (!id || !name || !desc) {
     return res.status(400).send(`ID and/or name are required inputs`);
   }
 
@@ -85,6 +86,7 @@ export async function updateLocation(req, res) {
   }
 
   existingLocation.Name = name;
+  existingLocation.Description = desc;
   await db.write();
 
   return res.status(200).json({
