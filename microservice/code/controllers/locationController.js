@@ -41,7 +41,7 @@ export async function updateLocation(req, res) {
   res.status(201).send(`Added location: ${JSON.stringify(newLocation)}`);
 }
 
-export async function GrabLocation(req, res) {
+export async function FetchLocationById(req, res) {
   let id = parseInt(req.params.id);
   let location = locations.find((location) => location.locationID === id);
 

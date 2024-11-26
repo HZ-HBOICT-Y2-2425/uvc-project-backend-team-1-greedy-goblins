@@ -7,7 +7,7 @@ import {
 } from "../controllers/categoryController.js";
 import {
   responseLocation,
-  GrabLocation,
+  FetchLocationById,
 } from "../controllers/locationController.js";
 import { marketInfo } from "../controllers/mainController.js";
 import { checkName } from "../middleware/exampleMiddleware.js";
@@ -26,7 +26,7 @@ router.get("/MarketCategory/:marketId", checkName, responseTest);
 
 // location routes
 router.get("/location", checkName, responseLocation);
-router.get("/marketLocation/:id", checkName, GrabLocation);
+router.get("/marketLocation/:id", checkName, FetchLocationById);
 
 // main routes
 router.get("/MarketInfo/:id", checkName, marketInfo);

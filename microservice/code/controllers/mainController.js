@@ -18,10 +18,9 @@ const db = await JSONFilePreset("category.json", categoryData);
 const categorys = db.data.categorys;
 const MarketCategory = db.data.MarketCategory;
 
+// Function to retrieve all info for the market
 export async function marketInfo(req, res) {
   const marketID = parseInt(req.params.id);
-
-  // Find the market's location
   const marketLocationEntry = MarketLocation.find(
     (entry) => entry.MarketID === marketID
   );
@@ -36,7 +35,6 @@ export async function marketInfo(req, res) {
     return res.status(404).json({ error: "Location not found for the market" });
   }
 
-  // Find the market's categories
   const marketCategories = MarketCategory.filter(
     (entry) => entry.MarketID === marketID
   )
@@ -45,7 +43,7 @@ export async function marketInfo(req, res) {
       (categoryID) =>
         categorys.find((cat) => cat.CategoryID === categoryID)?.Name
     )
-    .filter(Boolean); // Remove null or undefined categories
+    .filter(Boolean);
 
   if (marketCategories.length === 0) {
     return res
@@ -53,7 +51,6 @@ export async function marketInfo(req, res) {
       .json({ error: "No categories found for the market" });
   }
 
-  // Construct the response
   const response = {
     marketID: marketID,
     marketName: location.Name,
