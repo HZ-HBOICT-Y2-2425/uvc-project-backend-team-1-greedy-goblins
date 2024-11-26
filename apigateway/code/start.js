@@ -5,6 +5,10 @@ dotenv.config({ path: 'variables.env' });
 import indexRouter from './routes/index.js';
 import cors from 'cors';
 // const cors = require('cors');
+const corsOptions = {
+  origin: 'http://localhost:5173',
+  credentials: true
+};
 
 const app = express();
 
@@ -13,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use('/', indexRouter);
 
 app.set('port', process.env.PORT || 3010);
