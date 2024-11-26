@@ -48,6 +48,7 @@ export async function marketInfoList(req, res) {
       marketName: location.Name,
       categories: marketCategories,
       description: location.Description,
+      favorite: false,
     };
   }).filter(Boolean);
 
@@ -96,6 +97,7 @@ export async function marketInfo(req, res) {
     marketName: location.Name,
     marketDesc: location.Description,
     categories: marketCategories,
+    favorite: false,
   };
 
   res.json(response);
