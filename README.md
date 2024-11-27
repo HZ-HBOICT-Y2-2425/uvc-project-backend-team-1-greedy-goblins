@@ -1,6 +1,6 @@
 # Backend example
 
-In this backend example for a project, a folder is created for each micoservice. 
+In this backend example for a project, a folder is created for each micoservice.
 
 1. Install docker to your system
 2. Run `docker compose up` and you are good to go
@@ -23,3 +23,5 @@ You can change the ports of your server via `variables.env`
 ## Containers
 
 Check the readme files of each container to understand the setup
+
+aaaaaaaaaaaaaaaaaaaj
