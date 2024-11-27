@@ -1,0 +1,60 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
+on: [push]
+
+jobs:
+  Build-and-Test:
+    runs-on: ubuntu-latest
+    steps:
+      # Toon dat de job is getriggerd door een push
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+
+      # Check out the repository
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      # Lijst de repository-bestanden op voor inspectie
+      - name: List repository files
+        run: ls -R
+
+      # Installeer Node.js en npm
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "npm"
+
+      # Install dependencies
+      - name: Install Dependencies
+        run: |
+          echo "Installing dependencies..."
+          npm ci
+          echo "Dependencies installed."
+
+      # Run production build
+      - name: Run Production Build
+        run: |
+          echo "Running production build..."
+          npm run build
+
+      # Test-stap
+      - name: Run Tests
+        run: |
+          echo "Running tests..."
+          npm run test
+          echo "All tests passed!"
+
+      # Lint-stap
+      - name: Run Linter (ESLint)
+        run: |
+          echo "Running ESLint..."
+          npm run lint --ext || exit 1
+          echo "ESLint finished!"
+
+  Notify-Failure:
+    needs: Build-and-Test
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "❌ Build failed! Notifying developers..."
