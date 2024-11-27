@@ -18,4 +18,3 @@ router.use('/microserviceUser', microserviceUserProxy);
 
 export default router;
 
-let vijf;
