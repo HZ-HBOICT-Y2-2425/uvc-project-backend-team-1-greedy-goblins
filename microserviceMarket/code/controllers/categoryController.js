@@ -18,8 +18,16 @@ export async function GetCategorys(req, res) {
 //           | Name      | "CategoryName"
 //MarketID start met 10 gevolgd door de id dus hier 7
 
+function getNextId() {
+  if (categorys.length === 0) {
+    return 1;
+  }
+  const ids = categorys.map(category => category.CategoryID);
+  return Math.max(...ids) + 1;
+}
+
 export async function AddCategory(req, res) {
-  let id = parseInt(req.query.id);
+  let id = getNextId();
   let name = req.query.Name;
 
   if (!id || !name) {
