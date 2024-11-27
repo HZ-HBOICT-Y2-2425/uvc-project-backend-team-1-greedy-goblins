@@ -1,5 +1,4 @@
 import express from "express";
-import { checkName } from "../middleware/exampleMiddleware.js";
 const router = express.Router();
 
 // routes

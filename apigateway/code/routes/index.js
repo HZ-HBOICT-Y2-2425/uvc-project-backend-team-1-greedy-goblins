@@ -17,3 +17,4 @@ router.use('/microserviceUser', microserviceUserProxy);
 // router.use('/locations', microserviceProxy);
 
 export default router;
+
