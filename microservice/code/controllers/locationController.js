@@ -12,8 +12,16 @@ export async function GetLocations(req, res) {
   res.status(200).send(locations);
 }
 
+function getNextId() {
+  if (locations.length === 0) {
+    return 1;
+  }
+  const ids = locations.map(location => location.locationID);
+  return Math.max(...ids) + 1;
+}
+
 export async function AddLocation(req, res) {
-  let id = parseInt(req.query.id);
+  let id = getNextId();
   let name = req.query.Name;
   let desc = req.query.Description;
 
