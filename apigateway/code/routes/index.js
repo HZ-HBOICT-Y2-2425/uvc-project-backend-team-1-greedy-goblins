@@ -8,6 +8,7 @@ const microserviceProxy = createProxyMiddleware({
   changeOrigin: true
 });
 
-router.use('/microservice', microserviceProxy);
+router.use('/', microserviceProxy);
+// router.use('/locations', microserviceProxy);
 
 export default router;
