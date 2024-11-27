@@ -4,7 +4,8 @@
   "description": "In this backend example for a project, a folder is created for each micoservice.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
