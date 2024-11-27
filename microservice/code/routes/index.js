@@ -42,3 +42,5 @@ router.get("/MarketInfo", checkName, marketInfoList);
 router.get("/MarketInfo/:id", checkName, marketInfo);
 
 export default router;
+
+let vijf
