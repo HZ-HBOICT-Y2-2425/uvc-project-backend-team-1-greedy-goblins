@@ -1,9 +1,20 @@
-# Backend example
+# Greedy Goblins (team 1)
 
-In this backend example for a project, a folder is created for each micoservice.
+Back-end Project van de Greedy Goblins (Team 1)
 
-1. Install docker to your system
-2. Run `docker compose up` and you are good to go
+## Authors
+
+Dinand Willaert (00095916)
+
+Brandon de Baat (00073578)
+
+Damian de Ruijter (00096869)
+
+Timo Adriaanse(00096985)
+
+Kylian van Helden(00096121)
+
+Atilla Özbey (00096937)
 
 ## Modules
 
@@ -24,4 +35,7 @@ You can change the ports of your server via `variables.env`
 
 Check the readme files of each container to understand the setup
 
-aaaaaaaaaaaaaaaaaaaj
+## How to start
+
+1. Install docker to your system
+2. Run `docker compose up` and you are good to go
