@@ -32,12 +32,6 @@ jobs:
           npm ci
           echo "Dependencies installed."
 
-      # Run production build
-      - name: Run Production Build
-        run: |
-          echo "Running production build..."
-          npm run build
-
       # Test-stap
       - name: Run Tests
         run: |
