@@ -31,8 +31,53 @@
     },
     {
       "locationID": 6,
-      "Name": "Test",
-      "Description": "Fersjkfgbrejhfreukifrebu"
+      "Name": "KaasBoerderij De Molen",
+      "Description": "KaasBoerderij De Molen in het rustige gebied van Zoutelande biedt een breed assortiment aan ambachtelijke kazen. Ontdek de rijke smaken en geniet van een unieke kaaservaring!"
+    },
+    {
+      "locationID": 7,
+      "Name": "Zeeuwse Vishandel",
+      "Description": "Deze viswinkel in Vlissingen biedt de beste kwaliteit verse vis en zeevruchten. Bezoek de winkel en proef de smaak van de zee!"
+    },
+    {
+      "locationID": 8,
+      "Name": "Pluktuin De Groene Hand",
+      "Description": "In deze pluktuin in Oostkapelle kun je zelf bloemen en groenten plukken. Ideaal voor een ontspannende middag in de natuur!"
+    },
+    {
+      "locationID": 9,
+      "Name": "FruitBoer Van Der Linden",
+      "Description": "Van Der Linden biedt de lekkerste, vers geplukte appels, peren en bessen. Kom langs en proef de sappige smaken van het Zeeuwse platteland."
+    },
+    {
+      "locationID": 10,
+      "Name": "Biologische Markt Groeneveld",
+      "Description": "Deze biologische markt in Goes biedt alles wat je nodig hebt voor een gezonde levensstijl. Verse producten rechtstreeks van lokale boeren!"
+    },
+    {
+      "locationID": 11,
+      "Name": "Koffiehuis De Zonnestraal",
+      "Description": "Geniet van heerlijke koffie en zelfgebakken taart in een warme, gezellige sfeer in het centrum van Middelburg."
+    },
+    {
+      "locationID": 12,
+      "Name": "Brouwerij De Drie Hoefijzers",
+      "Description": "Deze lokale brouwerij in Goes biedt ambachtelijk gebrouwen bieren. Perfect voor een avondje uit of om mee naar huis te nemen."
+    },
+    {
+      "locationID": 13,
+      "Name": "Ambachtelijke Chocolaterie Van Dijk",
+      "Description": "Bezoek deze chocolaterie in Vlissingen voor de fijnste handgemaakte pralines, chocolade en andere zoete lekkernijen."
+    },
+    {
+      "locationID": 14,
+      "Name": "Tuincentrum Bloemenhof",
+      "Description": "Tuincentrum Bloemenhof biedt een breed assortiment bloemen, planten en tuinbenodigdheden in Domburg. Een perfecte stop voor tuinliefhebbers!"
+    },
+    {
+      "locationID": 15,
+      "Name": "Speeltuin De Springveer",
+      "Description": "Een leuke speeltuin voor kinderen van alle leeftijden, gelegen in Grijpskerke. Geniet van een dag vol speelplezier!"
     }
   ],
   "MarketLocation": [
@@ -55,6 +100,46 @@
     {
       "MarketID": 105,
       "LocationID": 5
+    },
+    {
+      "MarketID": 106,
+      "LocationID": 6
+    },
+    {
+      "MarketID": 107,
+      "LocationID": 7
+    },
+    {
+      "MarketID": 108,
+      "LocationID": 8
+    },
+    {
+      "MarketID": 109,
+      "LocationID": 9
+    },
+    {
+      "MarketID": 110,
+      "LocationID": 10
+    },
+    {
+      "MarketID": 111,
+      "LocationID": 11
+    },
+    {
+      "MarketID": 112,
+      "LocationID": 12
+    },
+    {
+      "MarketID": 113,
+      "LocationID": 13
+    },
+    {
+      "MarketID": 114,
+      "LocationID": 14
+    },
+    {
+      "MarketID": 115,
+      "LocationID": 15
     }
   ]
 }
