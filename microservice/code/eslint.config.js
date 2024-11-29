@@ -8,7 +8,8 @@ export default [
   pluginJs.configs.recommended,
   {
     rules: {
-      "eqeqeq": ["error", "always"]
+      "eqeqeq": ["error", "always"],
+      "camelcase": "error"
     }
   }
 ];
