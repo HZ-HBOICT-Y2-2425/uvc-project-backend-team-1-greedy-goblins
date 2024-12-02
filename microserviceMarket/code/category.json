@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "tile": "List of categories",
+    "date": "November 2024"
+  },
+  "categorys": [
+    {
+      "CategoryID": 1,
+      "Name": "kaas"
+    },
+    {
+      "CategoryID": 2,
+      "Name": "Melk"
+    },
+    {
+      "CategoryID": 3,
+      "Name": "Eieren"
+    },
+    {
+      "CategoryID": 4,
+      "Name": "Groente"
+    },
+    {
+      "CategoryID": 5,
+      "Name": "Fruit"
+    },
+    {
+      "CategoryID": 6,
+      "Name": "Vlees"
+    },
+    {
+      "CategoryID": 7,
+      "Name": "Kruiden"
+    },
+    {
+      "CategoryID": 8,
+      "Name": "Vis"
+    },
+    {
+      "CategoryID": 9,
+      "Name": "Brood"
+    },
+    {
+      "CategoryID": 10,
+      "Name": "Aardappelen"
+    },
+    {
+      "CategoryID": 11,
+      "Name": "Noten & zaden"
+    }
+  ],
+  "MarketCategory": [
+    {
+      "MarketID": 101,
+      "CategoryID": 2
+    },
+    {
+      "MarketID": 101,
+      "CategoryID": 4
+    },
+    {
+      "MarketID": 102,
+      "CategoryID": 6
+    },
+    {
+      "MarketID": 102,
+      "CategoryID": 7
+    },
+    {
+      "MarketID": 102,
+      "CategoryID": 8
+    },
+    {
+      "MarketID": 103,
+      "CategoryID": 9
+    },
+    {
+      "MarketID": 103,
+      "CategoryID": 3
+    },
+    {
+      "MarketID": 104,
+      "CategoryID": 2
+    },
+    {
+      "MarketID": 105,
+      "CategoryID": 4
+    },
+    {
+      "MarketID": 105,
+      "CategoryID": 5
+    }
+  ]
+}
