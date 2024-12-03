@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "tile": "List of Users",
+    "date": "November 2024"
+  },
+  "Users": [
+    {
+      "UserID": 1,
+      "Username": "John Doe",
+      "Email": "JohnDoe@gmail.com",
+      "Password": "password"
+    }
+  ],
+  "Orders": [
+    {
+      "OrderID": 101,
+      "DiscountCodeID": 5,
+      "UserID": 1,
+      "Amount": 99.99,
+      "PaymentDate": "2024-11-30"
+    },
+    {
+      "OrderID": 134,
+      "DiscountCodeID": 10,
+      "UserID": 1,
+      "Amount": 29.95,
+      "PaymentDate": "2024-12-01"
+    }
+  ]
+}

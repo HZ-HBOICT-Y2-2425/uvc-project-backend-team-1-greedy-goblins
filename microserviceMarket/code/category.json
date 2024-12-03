@@ -47,6 +47,10 @@
     {
       "CategoryID": 11,
       "Name": "Noten & zaden"
+    },
+    {
+      "CategoryID": 12,
+      "Name": "Chocolade"
     }
   ],
   "MarketCategory": [
