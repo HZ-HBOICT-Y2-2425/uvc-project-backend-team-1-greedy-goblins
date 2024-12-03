@@ -1,6 +1,9 @@
 import express from "express";
-import { createUser, getAllUsers } from "../controllers/UserController.js";
-import { getUserWithOrders } from "../controllers/OrderController.js";
+import {
+  createUser,
+  getAllUsers,
+  getUserWithOrders,
+} from "../controllers/UserController.js";
 import { checkName } from "../middleware/exampleMiddleware.js";
 const router = express.Router();
 
@@ -15,6 +18,6 @@ router.post("/users/add", checkName, createUser);
 /*
  * Start of Order routes
  */
-router.get("/orderByUser", checkName, getUserWithOrders);
+router.get("/orderByUser/:id", checkName, getUserWithOrders);
 
 export default router;

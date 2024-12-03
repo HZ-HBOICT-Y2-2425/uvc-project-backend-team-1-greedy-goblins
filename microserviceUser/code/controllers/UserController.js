@@ -16,7 +16,9 @@ export async function getAllUsers(req, res) {
  * Create a new user (if we want to inplement this)
  */
 export async function createUser(req, res) {
-  let { Username, Email, Password } = req.body;
+  let Username = req.query.Username;
+  let Email = req.query.Email;
+  let Password = req.query.Password;
 
   if (!Username || !Email || !Password) {
     return res
@@ -24,12 +26,20 @@ export async function createUser(req, res) {
       .send(`Username, Email, and Password are required inputs.`);
   }
 
+  // Check if Username or Email already exists
+  const userExists = users.some(
+    (user) => user.Username === Username || user.Email === Email
+  );
+
+  if (userExists) {
+    return res.status(409).send("Username or Email already exists.");
+  }
+
   let newUser = {
     UserID: users.length + 1,
-    Username,
-    Email,
-    Password,
-    OrderID: null, // No Orders yet
+    Username: Username,
+    Email: Email,
+    Password: Password,
   };
 
   users.push(newUser);
