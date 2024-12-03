@@ -7,77 +7,92 @@
     {
       "locationID": 1,
       "Name": "PittePerk",
-      "Description": "PittePerk is een gezellige melkboerderij in het buitengebied van Middelburg. Hier kun je terecht voor een heerlijke kop melk of een lekker broodje. Ook kun je hier terecht voor een gezellige high tea of high coffee. Kom gezellig langs en geniet van de heerlijke sfeer bij PittePerk."
+      "Description": "PittePerk is een gezellige melkboerderij in het buitengebied van Middelburg. Hier kun je terecht voor een heerlijke kop melk of een lekker broodje. Ook kun je hier terecht voor een gezellige high tea of high coffee. Kom gezellig langs en geniet van de heerlijke sfeer bij PittePerk.",
+      "adress": "Boerenweg 12, Middelburg"
     },
     {
       "locationID": 2,
       "Name": "Slagerij Wisse",
-      "Description": "Slagerij Wisse is een traditionele slagerij in het hart van Meliskerke. Hier vind je een breed assortiment aan vleeswaren en specialiteiten. De slagerij staat bekend om zijn ambachtelijke producten en uitstekende service. Bezoek Slagerij Wisse voor de beste kwaliteit vlees."
+      "Description": "Slagerij Wisse is een traditionele slagerij in het hart van Meliskerke. Hier vind je een breed assortiment aan vleeswaren en specialiteiten. De slagerij staat bekend om zijn ambachtelijke producten en uitstekende service. Bezoek Slagerij Wisse voor de beste kwaliteit vlees.",
+      "adress": "Kerkstraat 8, Meliskerke"
     },
     {
       "locationID": 3,
       "Name": "Bakkerij Koppejan",
-      "Description": "Bakkerij Koppejan is een ambachtelijke bakkerij in het centrum van Meliskerke. Hier kun je terecht voor versgebakken brood, gebak en andere lekkernijen. De bakkerij staat bekend om zijn heerlijke producten en uitstekende service. Kom langs en proef de lekkerste broodjes van Middelburg."
+      "Description": "Bakkerij Koppejan is een ambachtelijke bakkerij in het centrum van Meliskerke. Hier kun je terecht voor versgebakken brood, gebak en andere lekkernijen. De bakkerij staat bekend om zijn heerlijke producten en uitstekende service. Kom langs en proef de lekkerste broodjes van Middelburg.",
+      "adress": "Marktplein 3, Meliskerke"
     },
     {
       "locationID": 4,
       "Name": "MelkTap Torenzicht",
-      "Description": "MelkTap Torenzicht is een gezellige melktap in het buitengebied van Grijpskerke. Hier kun je terecht voor verse melk, yoghurt en andere zuivelproducten. De melktap staat bekend om zijn verse producten en vriendelijke service. Kom langs en geniet van de heerlijke zuivel van MelkTap Torenzicht."
+      "Description": "MelkTap Torenzicht is een gezellige melktap in het buitengebied van Grijpskerke. Hier kun je terecht voor verse melk, yoghurt en andere zuivelproducten. De melktap staat bekend om zijn verse producten en vriendelijke service. Kom langs en geniet van de heerlijke zuivel van MelkTap Torenzicht.",
+      "adress": "Torenzichtlaan 25, Grijpskerke"
     },
     {
       "locationID": 5,
       "Name": "VitamineBoer De Kragge",
-      "Description": "VitamineBoer De Kragge is een biologische boerderij in het buitengebied van Meliskerke. Hier kun je tevens terecht voor verse groenten, fruit en andere biologische producten. De boerderij staat bekend om zijn verse producten en duurzame werkwijze. Kom langs en proef de lekkerste groenten van VitamineBoer De Kragge."
+      "Description": "VitamineBoer De Kragge is een biologische boerderij in het buitengebied van Meliskerke. Hier kun je tevens terecht voor verse groenten, fruit en andere biologische producten. De boerderij staat bekend om zijn verse producten en duurzame werkwijze. Kom langs en proef de lekkerste groenten van VitamineBoer De Kragge.",
+      "adress": "De Kraggeweg 14, Meliskerke"
     },
     {
       "locationID": 6,
       "Name": "KaasBoerderij De Molen",
-      "Description": "KaasBoerderij De Molen in het rustige gebied van Zoutelande biedt een breed assortiment aan ambachtelijke kazen. Ontdek de rijke smaken en geniet van een unieke kaaservaring!"
+      "Description": "KaasBoerderij De Molen in het rustige gebied van Zoutelande biedt een breed assortiment aan ambachtelijke kazen. Ontdek de rijke smaken en geniet van een unieke kaaservaring!",
+      "adress": "Molenweg 22, Zoutelande"
     },
     {
       "locationID": 7,
       "Name": "Zeeuwse Vishandel",
-      "Description": "Deze viswinkel in Vlissingen biedt de beste kwaliteit verse vis en zeevruchten. Bezoek de winkel en proef de smaak van de zee!"
+      "Description": "Deze viswinkel in Vlissingen biedt de beste kwaliteit verse vis en zeevruchten. Bezoek de winkel en proef de smaak van de zee!",
+      "adress": "Havenstraat 9, Vlissingen"
     },
     {
       "locationID": 8,
       "Name": "Pluktuin De Groene Hand",
-      "Description": "In deze pluktuin in Oostkapelle kun je zelf bloemen en groenten plukken. Ideaal voor een ontspannende middag in de natuur!"
+      "Description": "In deze pluktuin in Oostkapelle kun je zelf bloemen en groenten plukken. Ideaal voor een ontspannende middag in de natuur!",
+      "adress": "Groeneweg 7, Oostkapelle"
     },
     {
       "locationID": 9,
       "Name": "FruitBoer Van Der Linden",
-      "Description": "Van Der Linden biedt de lekkerste, vers geplukte appels, peren en bessen. Kom langs en proef de sappige smaken van het Zeeuwse platteland."
+      "Description": "Van Der Linden biedt de lekkerste, vers geplukte appels, peren en bessen. Kom langs en proef de sappige smaken van het Zeeuwse platteland.",
+      "adress": "Lindepad 4, Oostkapelle"
     },
     {
       "locationID": 10,
       "Name": "Biologische Markt Groeneveld",
-      "Description": "Deze biologische markt in Goes biedt alles wat je nodig hebt voor een gezonde levensstijl. Verse producten rechtstreeks van lokale boeren!"
+      "Description": "Deze biologische markt in Goes biedt alles wat je nodig hebt voor een gezonde levensstijl. Verse producten rechtstreeks van lokale boeren!",
+      "adress": "Marktstraat 1, Goes"
     },
     {
       "locationID": 11,
       "Name": "Koffiehuis De Zonnestraal",
-      "Description": "Geniet van heerlijke koffie en zelfgebakken taart in een warme, gezellige sfeer in het centrum van Middelburg."
+      "Description": "Geniet van heerlijke koffie en zelfgebakken taart in een warme, gezellige sfeer in het centrum van Middelburg.",
+      "adress": "Zonnestraat 15, Middelburg"
     },
     {
       "locationID": 12,
       "Name": "Brouwerij De Drie Hoefijzers",
-      "Description": "Deze lokale brouwerij in Goes biedt ambachtelijk gebrouwen bieren. Perfect voor een avondje uit of om mee naar huis te nemen."
+      "Description": "Deze lokale brouwerij in Goes biedt ambachtelijk gebrouwen bieren. Perfect voor een avondje uit of om mee naar huis te nemen.",
+      "adress": "Hoefijzerlaan 18, Goes"
     },
     {
       "locationID": 13,
       "Name": "Ambachtelijke Chocolaterie Van Dijk",
-      "Description": "Bezoek deze chocolaterie in Vlissingen voor de fijnste handgemaakte pralines, chocolade en andere zoete lekkernijen."
+      "Description": "Bezoek deze chocolaterie in Vlissingen voor de fijnste handgemaakte pralines, chocolade en andere zoete lekkernijen.",
+      "adress": "Chocoladelaan 20, Vlissingen"
     },
     {
       "locationID": 14,
       "Name": "Tuincentrum Bloemenhof",
-      "Description": "Tuincentrum Bloemenhof biedt een breed assortiment bloemen, planten en tuinbenodigdheden in Domburg. Een perfecte stop voor tuinliefhebbers!"
+      "Description": "Tuincentrum Bloemenhof biedt een breed assortiment bloemen, planten en tuinbenodigdheden in Domburg. Een perfecte stop voor tuinliefhebbers!",
+      "adress": "Bloemenweg 6, Domburg"
     },
     {
       "locationID": 15,
       "Name": "Speeltuin De Springveer",
-      "Description": "Een leuke speeltuin voor kinderen van alle leeftijden, gelegen in Grijpskerke. Geniet van een dag vol speelplezier!"
+      "Description": "Een leuke speeltuin voor kinderen van alle leeftijden, gelegen in Grijpskerke. Geniet van een dag vol speelplezier!",
+      "adress": "Springveerlaan 12, Grijpskerke"
     }
   ],
   "MarketLocation": [

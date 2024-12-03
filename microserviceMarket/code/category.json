@@ -93,6 +93,106 @@
     {
       "MarketID": 105,
       "CategoryID": 5
+    },
+    {
+      "MarketID": 106,
+      "CategoryID": 1
+    },
+    {
+      "MarketID": 106,
+      "CategoryID": 3
+    },
+    {
+      "MarketID": 107,
+      "CategoryID": 7
+    },
+    {
+      "MarketID": 107,
+      "CategoryID": 8
+    },
+    {
+      "MarketID": 107,
+      "CategoryID": 9
+    },
+    {
+      "MarketID": 108,
+      "CategoryID": 2
+    },
+    {
+      "MarketID": 108,
+      "CategoryID": 4
+    },
+    {
+      "MarketID": 108,
+      "CategoryID": 6
+    },
+    {
+      "MarketID": 109,
+      "CategoryID": 3
+    },
+    {
+      "MarketID": 109,
+      "CategoryID": 5
+    },
+    {
+      "MarketID": 110,
+      "CategoryID": 8
+    },
+    {
+      "MarketID": 110,
+      "CategoryID": 9
+    },
+    {
+      "MarketID": 111,
+      "CategoryID": 2
+    },
+    {
+      "MarketID": 111,
+      "CategoryID": 6
+    },
+    {
+      "MarketID": 112,
+      "CategoryID": 1
+    },
+    {
+      "MarketID": 112,
+      "CategoryID": 3
+    },
+    {
+      "MarketID": 112,
+      "CategoryID": 4
+    },
+    {
+      "MarketID": 113,
+      "CategoryID": 5
+    },
+    {
+      "MarketID": 113,
+      "CategoryID": 7
+    },
+    {
+      "MarketID": 114,
+      "CategoryID": 2
+    },
+    {
+      "MarketID": 114,
+      "CategoryID": 8
+    },
+    {
+      "MarketID": 115,
+      "CategoryID": 1
+    },
+    {
+      "MarketID": 115,
+      "CategoryID": 3
+    },
+    {
+      "MarketID": 115,
+      "CategoryID": 5
+    },
+    {
+      "MarketID": 115,
+      "CategoryID": 9
     }
   ]
 }
