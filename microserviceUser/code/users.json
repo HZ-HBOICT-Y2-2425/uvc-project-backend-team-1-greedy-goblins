@@ -18,6 +18,13 @@
       "UserID": 1,
       "Amount": 99.99,
       "PaymentDate": "2024-11-30"
+    },
+    {
+      "OrderID": 134,
+      "DiscountCodeID": 10,
+      "UserID": 1,
+      "Amount": 29.95,
+      "PaymentDate": "2024-12-01"
     }
   ]
 }
