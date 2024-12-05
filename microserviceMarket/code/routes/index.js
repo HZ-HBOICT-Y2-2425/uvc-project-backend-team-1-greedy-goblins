@@ -13,6 +13,13 @@ import {
   deleteLocations,
   updateLocation,
 } from "../controllers/locationController.js";
+import {
+  GetProducts,
+  FetchProductById,
+  AddProduct,
+  deleteProduct,
+  updateProduct,
+} from "../controllers/productController.js";
 import { marketInfo, marketInfoList } from "../controllers/marketInfoController.js";
 import { checkName } from "../middleware/exampleMiddleware.js";
 const router = express.Router();
@@ -40,5 +47,14 @@ router.put("/location/update/:id", checkName, updateLocation);
 // Met deze routes roepen we de tabel aan die de info samenvoegt van de markt, locatie en categorie
 router.get("/MarketInfo", checkName, marketInfoList);
 router.get("/MarketInfo/:id", checkName, marketInfo);
+
+// stock (voorraad) routes
+
+// products routes
+router.get("/products", checkName, GetProducts);
+router.get("/product/:id", checkName, FetchProductById);
+router.post("/product/add", checkName, AddProduct);
+router.delete("/product/delete/:id", checkName, deleteProduct);
+router.put("/product/update/:id", checkName, updateProduct);
 
 export default router;

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "tile": "List of products",
+    "date": "November 2024"
+  },
+  "products": [
+    {
+      "productID": 1,
+      "categoryID": 1,
+      "name": "Vers Brood",
+      "price": 300
+    },
+    {
+      "productID": 2,
+      "categoryID": 2,
+      "name": "Boerderijmelk",
+      "price": 250
+    },
+    {
+      "productID": 3,
+      "categoryID": 3,
+      "name": "Kaasje Jong Belegen",
+      "price": 750
+    },
+    {
+      "productID": 4,
+      "categoryID": 1,
+      "name": "Croissant",
+      "price": 120
+    },
+    {
+      "productID": 5,
+      "categoryID": 4,
+      "name": "Eieren (6 stuks)",
+      "price": 200
+    },
+    {
+      "productID": 6,
+      "categoryID": 2,
+      "name": "Yoghurt (1L)",
+      "price": 320
+    },
+    {
+      "productID": 7,
+      "categoryID": 5,
+      "name": "Kropsla",
+      "price": 180
+    },
+    {
+      "productID": 8,
+      "categoryID": 6,
+      "name": "Appels (1 kg)",
+      "price": 300
+    },
+    {
+      "productID": 9,
+      "categoryID": 6,
+      "name": "Peren (1 kg)",
+      "price": 320
+    },
+    {
+      "productID": 10,
+      "categoryID": 3,
+      "name": "Kaasje Oude Geit",
+      "price": 850
+    },
+    {
+      "productID": 11,
+      "categoryID": 7,
+      "name": "Zalmmoot",
+      "price": 1200
+    },
+    {
+      "productID": 12,
+      "categoryID": 7,
+      "name": "Garnalen (500g)",
+      "price": 1500
+    },
+    {
+      "productID": 13,
+      "categoryID": 8,
+      "name": "Kersentaart",
+      "price": 2500
+    },
+    {
+      "productID": 14,
+      "categoryID": 8,
+      "name": "Chocolade Brownie",
+      "price": 1800
+    },
+    {
+      "productID": 15,
+      "categoryID": 5,
+      "name": "Aardappelen (2 kg)",
+      "price": 400
+    },
+    {
+      "productID": 16,
+      "categoryID": 4,
+      "name": "Kippenvleugels (1 kg)",
+      "price": 650
+    },
+    {
+      "productID": 17,
+      "categoryID": 9,
+      "name": "Ambachtelijk Bier",
+      "price": 350
+    },
+    {
+      "productID": 18,
+      "categoryID": 9,
+      "name": "Wijn Rood (750ml)",
+      "price": 1200
+    },
+    {
+      "productID": 19,
+      "categoryID": 10,
+      "name": "Handgemaakte Chocolade",
+      "price": 500
+    },
+    {
+      "productID": 20,
+      "categoryID": 10,
+      "name": "Pralines Mix",
+      "price": 950
+    },
+    {
+      "productID": 21,
+      "categoryID": "7",
+      "name": "Broodje Broodje Rijstepap",
+      "price": "115",
+      "catId": "7"
+    }
+  ]
+}
