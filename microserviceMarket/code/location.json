@@ -10,7 +10,7 @@
       "Description": "PittePerk is een gezellige melkboerderij in het buitengebied van Middelburg. Hier kun je terecht voor een heerlijke kop melk of een lekker broodje. Ook kun je hier terecht voor een gezellige high tea of high coffee. Kom gezellig langs en geniet van de heerlijke sfeer bij PittePerk.",
       "adress": "Boerenweg 12, Middelburg",
       "image": "https://fietsenvoormijneten.nl/wp-content/uploads/2021/12/kaasboerderij-Pittekerker.jpg",
-      "favorite": true
+      "favorite": false
     },
     {
       "locationID": 2,
