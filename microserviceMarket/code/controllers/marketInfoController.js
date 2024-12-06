@@ -49,7 +49,7 @@ export async function marketInfoList(req, res) {
       categories: marketCategories,
       description: location.Description,
       marketAdress: location.adress,
-      favorite: false,
+      favorite: location.favorite,
     };
   }).filter(Boolean);
 
@@ -97,10 +97,39 @@ export async function marketInfo(req, res) {
     marketID: marketID,
     marketName: location.Name,
     marketDesc: location.Description,
-    marketAdress: location.adress,
     categories: marketCategories,
-    favorite: false,
+    marketAdress: location.adress,
+    favorite: location.favorite,
   };
 
   res.json(response);
+}
+
+export async function changeBoolean(req, res) {
+  const marketID = parseInt(req.params.id);
+
+  const marketLocationEntry = MarketLocation.find(
+    (entry) => entry.MarketID === marketID
+  );
+
+  if (!marketLocationEntry) {
+    return res.status(404).json({ error: "Market not found" });
+  }
+
+  const location = locations.find(
+    (loc) => loc.locationID === marketLocationEntry.LocationID
+  );
+
+  if (!location) {
+    return res.status(404).json({ error: "Location not found for the market" });
+  }
+
+  location.favorite = !location.favorite;
+  await locationDB.write();
+
+  res.json({
+    message: "Favorite status toggled",
+    marketID,
+    favorite: location.favorite,
+  });
 }
