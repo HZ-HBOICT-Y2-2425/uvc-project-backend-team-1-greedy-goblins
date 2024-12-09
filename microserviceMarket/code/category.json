@@ -1,56 +1,140 @@
 {
   "meta": {
-    "tile": "List of categories",
+    "tile": "List of categorys",
     "date": "November 2024"
   },
   "categorys": [
     {
       "CategoryID": 1,
-      "Name": "Kaas"
+      "Name": "Kaas",
+      "Products": [
+        { "ProductID": 1, "Name": "Goudse Kaas" },
+        { "ProductID": 2, "Name": "Parmezaanse Kaas" },
+        { "ProductID": 3, "Name": "Brie" },
+        { "ProductID": 4, "Name": "Geitenkaas" },
+        { "ProductID": 5, "Name": "Cheddar" }
+      ]
     },
     {
       "CategoryID": 2,
-      "Name": "Melk"
+      "Name": "Melk",
+      "Products": [
+        { "ProductID": 6, "Name": "Halfvolle Melk" },
+        { "ProductID": 7, "Name": "Volle Melk" },
+        { "ProductID": 8, "Name": "Karnemelk" },
+        { "ProductID": 9, "Name": "Lactosevrije Melk" },
+        { "ProductID": 10, "Name": "Chocolademelk" }
+      ]
     },
     {
       "CategoryID": 3,
-      "Name": "Eieren"
+      "Name": "Eieren",
+      "Products": [
+        { "ProductID": 11, "Name": "Vrije Uitloop Eieren" },
+        { "ProductID": 12, "Name": "Biologische Eieren" },
+        { "ProductID": 13, "Name": "Scharreleieren" },
+        { "ProductID": 14, "Name": "Omega-3 Eieren" },
+        { "ProductID": 15, "Name": "Kwarkei" }
+      ]
     },
     {
       "CategoryID": 4,
-      "Name": "Groente"
+      "Name": "Groente",
+      "Products": [
+        { "ProductID": 16, "Name": "IJsbergsla" },
+        { "ProductID": 17, "Name": "Komkommer" },
+        { "ProductID": 18, "Name": "Bloemkool" },
+        { "ProductID": 19, "Name": "Broccoli" },
+        { "ProductID": 20, "Name": "Spinazie" }
+      ]
     },
     {
       "CategoryID": 5,
-      "Name": "Fruit"
+      "Name": "Fruit",
+      "Products": [
+        { "ProductID": 21, "Name": "Appel" },
+        { "ProductID": 22, "Name": "Peer" },
+        { "ProductID": 23, "Name": "Aardbeien" },
+        { "ProductID": 24, "Name": "Frambozen" },
+        { "ProductID": 25, "Name": "Kers" }
+      ]
     },
     {
       "CategoryID": 6,
-      "Name": "Vlees"
+      "Name": "Vlees",
+      "Products": [
+        { "ProductID": 26, "Name": "Kipfilet" },
+        { "ProductID": 27, "Name": "SpareRibs" },
+        { "ProductID": 28, "Name": "Verse Worst" },
+        { "ProductID": 29, "Name": "Gehakt" },
+        { "ProductID": 30, "Name": "Hamburgers" }
+      ]
     },
     {
       "CategoryID": 7,
-      "Name": "Kruiden"
+      "Name": "Kruiden",
+      "Products": [
+        { "ProductID": 31, "Name": "Basilicum" },
+        { "ProductID": 32, "Name": "Peterselie" },
+        { "ProductID": 33, "Name": "Rozemarijn" },
+        { "ProductID": 34, "Name": "Tijm" },
+        { "ProductID": 35, "Name": "Koriander" }
+      ]
     },
     {
       "CategoryID": 8,
-      "Name": "Vis"
+      "Name": "Vis",
+      "Products": [
+        { "ProductID": 36, "Name": "Zalm" },
+        { "ProductID": 37, "Name": "Tonijn" },
+        { "ProductID": 38, "Name": "Makreel" },
+        { "ProductID": 39, "Name": "Haring" },
+        { "ProductID": 40, "Name": "Kabeljauw" }
+      ]
     },
     {
       "CategoryID": 9,
-      "Name": "Brood"
+      "Name": "Brood",
+      "Products": [
+        { "ProductID": 41, "Name": "Bruin Brood" },
+        { "ProductID": 42, "Name": "Wit Brood" },
+        { "ProductID": 43, "Name": "Volkoren Brood" },
+        { "ProductID": 44, "Name": "Meergranen Brood" },
+        { "ProductID": 45, "Name": "Rozijnenbrood" }
+      ]
     },
     {
       "CategoryID": 10,
-      "Name": "Aardappelen"
+      "Name": "Aardappelen",
+      "Products": [
+        { "ProductID": 46, "Name": "Friese Aardappelen" },
+        { "ProductID": 47, "Name": "Jonge Aardappelen" },
+        { "ProductID": 48, "Name": "Krieltjes" },
+        { "ProductID": 49, "Name": "Zoete Aardappelen" },
+        { "ProductID": 50, "Name": "Rode Aardappelen" }
+      ]
     },
     {
       "CategoryID": 11,
-      "Name": "Noten & zaden"
+      "Name": "Noten & Zaden",
+      "Products": [
+        { "ProductID": 51, "Name": "Amandelen" },
+        { "ProductID": 52, "Name": "Hazelnoten" },
+        { "ProductID": 53, "Name": "Zonnebloempitten" },
+        { "ProductID": 54, "Name": "Chiazaad" },
+        { "ProductID": 55, "Name": "Cashewnoten" }
+      ]
     },
     {
       "CategoryID": 12,
-      "Name": "Chocolade"
+      "Name": "Chocolade",
+      "Products": [
+        { "ProductID": 56, "Name": "Melkchocolade" },
+        { "ProductID": 57, "Name": "Pure Chocolade" },
+        { "ProductID": 58, "Name": "Witte Chocolade" },
+        { "ProductID": 59, "Name": "Chocoladerepen" },
+        { "ProductID": 60, "Name": "Chocoladetruffels" }
+      ]
     }
   ],
   "MarketCategory": [
