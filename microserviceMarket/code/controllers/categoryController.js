@@ -22,7 +22,7 @@ function getNextId() {
   if (categorys.length === 0) {
     return 1;
   }
-  const ids = categorys.map(category => category.CategoryID);
+  const ids = categorys.map((category) => category.CategoryID);
   return Math.max(...ids) + 1;
 }
 

@@ -1,0 +1,76 @@
+{
+    "meta": {
+      "tile": "List of products",
+      "date": "November 2024"
+    },
+    "products": [
+      {
+        "productID": 1,
+        "Name": "Kaas"
+      },
+      {
+        "productID": 2,
+        "Name": "Aardbeien"
+      },
+      {
+        "productID": 3,
+        "Name": "Aardappelen"
+      },
+      {
+        "productID": 4,
+        "Name": "Halfvolle Melk"
+      },
+      {
+        "productID": 5,
+        "Name": "Ijsberg Sla"
+      },
+      {
+        "productID": 6,
+        "Name": "Komkommer"
+      },
+      {
+        "productID": 7,
+        "Name": "Frambozen"
+      },
+      {
+        "productID": 8,
+        "Name": "Bloemkool"
+      },
+      {
+        "productID": 9,
+        "Name": "Suikerbieten"
+      },
+      {
+        "productID": 10,
+        "Name": "Appel"
+      },
+      {
+        "productID": 11,
+        "Name": "Peer"
+      },
+      {
+        "productID": 12,
+        "Name": "Kers"
+      },
+      {
+        "productID": 13,
+        "Name": "Volle Melk"
+      },
+      {
+        "productID": 14,
+        "Name": "Brocolli"
+      },
+      {
+        "productID": 15,
+        "Name": "SpareRibs"
+      },
+      {
+        "productID": 16,
+        "Name": "Verse Worst"
+      },
+      {
+        "productID": 17,
+        "Name": "Kipfilet"
+      }
+    ]
+}
