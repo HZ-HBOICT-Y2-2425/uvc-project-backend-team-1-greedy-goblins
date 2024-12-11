@@ -49,6 +49,8 @@ export async function marketInfoList(req, res) {
       categories: marketCategories,
       description: location.Description,
       marketAdress: location.adress,
+      marketLatitude: location.lat,
+      marketLongitude: location.lng,
       favorite: location.favorite,
     };
   }).filter(Boolean);
