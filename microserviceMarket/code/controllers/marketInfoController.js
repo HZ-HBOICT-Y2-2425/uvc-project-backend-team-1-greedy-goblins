@@ -100,6 +100,8 @@ export async function marketInfo(req, res) {
     marketName: location.Name,
     marketDesc: location.Description,
     categories: marketCategories,
+    marketLatitude: location.lat,
+    marketLongitude: location.lng,
     marketAdress: location.adress,
     favorite: location.favorite,
   };
