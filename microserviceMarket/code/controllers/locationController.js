@@ -24,6 +24,7 @@ export async function AddLocation(req, res) {
   let id = getNextId();
   let name = req.query.Name;
   let desc = req.query.Description;
+  let adress = req.query.adress;
 
   if (!id || !name || !desc) {
     return res
@@ -42,6 +43,7 @@ export async function AddLocation(req, res) {
     locationID: id,
     Name: name,
     Description: desc,
+    adress: adress,
   };
 
   locations.push(newLocation);
@@ -80,8 +82,9 @@ export async function updateLocation(req, res) {
   let id = parseInt(req.params.id);
   let name = req.query.name;
   let desc = req.query.description;
+  let adress = req.query.adress;
 
-  if (!id || !name || !desc) {
+  if (!id || !name || !desc || !adress) {
     return res.status(400).send(`ID and/or name are required inputs`);
   }
 
@@ -95,6 +98,7 @@ export async function updateLocation(req, res) {
 
   existingLocation.Name = name;
   existingLocation.Description = desc;
+  existingLocation.adress = adress;
   await db.write();
 
   return res.status(200).json({

@@ -13,7 +13,11 @@ import {
   deleteLocations,
   updateLocation,
 } from "../controllers/locationController.js";
-import { marketInfo, marketInfoList } from "../controllers/marketInfoController.js";
+import {
+  marketInfo,
+  marketInfoList,
+  changeBoolean,
+} from "../controllers/marketInfoController.js";
 import { checkName } from "../middleware/exampleMiddleware.js";
 const router = express.Router();
 
@@ -40,5 +44,6 @@ router.put("/location/update/:id", checkName, updateLocation);
 // Met deze routes roepen we de tabel aan die de info samenvoegt van de markt, locatie en categorie
 router.get("/MarketInfo", checkName, marketInfoList);
 router.get("/MarketInfo/:id", checkName, marketInfo);
+router.put("/changeBoolean/:id", checkName, changeBoolean);
 
 export default router;
