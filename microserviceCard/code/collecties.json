@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Collecties van kaarten",
+    "date": "December 2024"
+  },
+  "collecties": [
+    {
+      "collectieID": 1,
+      "Name": "Groente",
+      "UncollectedKaart": "/kaarten/uncollected/Groente_uncollected.png",
+      "kwartet": false,
+      "kaarten": [
+        {"kaartID": 1, "Name": "Wortels", "img": "/kaarten/groente/Groente_wortel.png", "collected": false},
+        {"kaartID": 2, "Name": "Aardappelen", "img": "", "collected": false},
+        {"kaartID": 3, "Name": "Radijs", "img": "", "collected": false},
+        {"kaartID": 4, "Name": "Rode biet", "img": "", "collected": false}
+      ]
+    },
+    {
+      "collectieID": 2,
+      "Name": "Zuivel",
+      "UncollectedKaart": "/kaarten/uncollected/Zuivel_uncollected.png",
+      "kwartet": false,
+      "kaarten": [
+        {"kaartID": 5, "Name": "Verse melk", "img": "", "collected": false},
+        {"kaartID": 6, "Name": "Kaas", "img": "", "collected": false},
+        {"kaartID": 7, "Name": "Yogurt", "img": "", "collected": false},
+        {"kaartID": 8, "Name": "Boter", "img": "", "collected": false}
+      ]
+    },
+    {
+      "collectieID": 3,
+      "Name": "Fruit",
+      "UncollectedKaart": "/kaarten/uncollected/Fruit_uncollected.png",
+      "kwartet": false,
+      "kaarten": [
+        {"kaartID": 9, "Name": "Aardbijen", "img": "", "collected": false},
+        {"kaartID": 10, "Name": "Appels", "img": "", "collected": false},
+        {"kaartID": 11, "Name": "Peren", "img": "", "collected": false},
+        {"kaartID": 12, "Name": "Perzikken", "img": "", "collected": false}
+      ]
+    },
+    {
+      "collectieID": 4,
+      "Name": "Vlees",
+      "UncollectedKaart": "/kaarten/uncollected/Vlees_uncollected.png",
+      "kwartet": false,
+      "kaarten": [
+        {"kaartID": 13, "Name": "Kip", "img": "", "collected": false},
+        {"kaartID": 14, "Name": "Koe", "img": "", "collected": false},
+        {"kaartID": 15, "Name": "Varken", "img": "", "collected": false},
+        {"kaartID": 16, "Name": "Schaap", "img": "", "collected": false}
+      ]
+    },
+    {
+      "collectieID": 5,
+      "Name": "Vis",
+      "UncollectedKaart": "/kaarten/uncollected/Vis_uncollected.png",
+      "kwartet": false,
+      "kaarten": [
+        {"kaartID": 17, "Name": "Zalm", "img": "", "collected": false},
+        {"kaartID": 18, "Name": "Haring", "img": "", "collected": false},
+        {"kaartID": 19, "Name": "Kabbeljauw", "img": "", "collected": false},
+        {"kaartID": 20, "Name": "Tonijn", "img": "", "collected": false}
+      ]
+    }
+  ]
+}
