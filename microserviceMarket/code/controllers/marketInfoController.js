@@ -104,6 +104,7 @@ export async function marketInfo(req, res) {
     marketLatitude: location.lat,
     marketLongitude: location.lng,
     marketAdress: location.adress,
+    marketImage: location.image,
     favorite: location.favorite,
   };
 
