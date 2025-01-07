@@ -8,135 +8,136 @@
       "CategoryID": 1,
       "Name": "Kaas",
       "Products": [
-        { "ProductID": 1, "Name": "Goudse Kaas" },
-        { "ProductID": 2, "Name": "Parmezaanse Kaas" },
-        { "ProductID": 3, "Name": "Brie" },
-        { "ProductID": 4, "Name": "Geitenkaas" },
-        { "ProductID": 5, "Name": "Cheddar" }
+        { "ProductID": 1, "Name": "Goudse Kaas - 400 g", "Price": 2.45 },
+        { "ProductID": 2, "Name": "Parmezaanse Kaas - 200 g", "Price": 2.95 },
+        { "ProductID": 3, "Name": "Brie - 200 g", "Price": 1.90 },
+        { "ProductID": 4, "Name": "Geitenkaas - 300 g", "Price": 3.10 },
+        { "ProductID": 5, "Name": "Cheddar - 250 g", "Price": 3.25 }
       ]
     },
     {
       "CategoryID": 2,
       "Name": "Melk",
       "Products": [
-        { "ProductID": 6, "Name": "Halfvolle Melk" },
-        { "ProductID": 7, "Name": "Volle Melk" },
-        { "ProductID": 8, "Name": "Karnemelk" },
-        { "ProductID": 9, "Name": "Lactosevrije Melk" },
-        { "ProductID": 10, "Name": "Chocolademelk" }
+        { "ProductID": 6, "Name": "Halfvolle Melk - 1L", "Price": 1.10 },
+        { "ProductID": 7, "Name": "Volle Melk - 1L", "Price": 1.20 },
+        { "ProductID": 8, "Name": "Karnemelk - 1L", "Price": 0.95 },
+        { "ProductID": 9, "Name": "Lactosevrije Melk - 1L", "Price": 1.40 },
+        { "ProductID": 10, "Name": "Chocolademelk - 1L", "Price": 1.80 }
       ]
     },
     {
       "CategoryID": 3,
       "Name": "Eieren",
       "Products": [
-        { "ProductID": 11, "Name": "Vrije Uitloop Eieren" },
-        { "ProductID": 12, "Name": "Biologische Eieren" },
-        { "ProductID": 13, "Name": "Scharreleieren" },
-        { "ProductID": 14, "Name": "Omega-3 Eieren" },
-        { "ProductID": 15, "Name": "Kwarkei" }
+        { "ProductID": 11, "Name": "Vrije Uitloop Eieren - 10 stuks", "Price": 2.60 },
+        { "ProductID": 12, "Name": "Biologische Eieren - 10 stuks", "Price": 3.00 },
+        { "ProductID": 13, "Name": "Scharreleieren - 10 stuks", "Price": 2.20 },
+        { "ProductID": 14, "Name": "Omega-3 Eieren - 10 stuks", "Price": 3.20 },
+        { "ProductID": 15, "Name": "Kwarkei - 6 stuks", "Price": 2.50 }
       ]
     },
     {
       "CategoryID": 4,
       "Name": "Groente",
       "Products": [
-        { "ProductID": 16, "Name": "IJsbergsla" },
-        { "ProductID": 17, "Name": "Komkommer" },
-        { "ProductID": 18, "Name": "Bloemkool" },
-        { "ProductID": 19, "Name": "Broccoli" },
-        { "ProductID": 20, "Name": "Spinazie" }
+        { "ProductID": 16, "Name": "IJsbergsla - 200 g", "Price": 1.50 },
+        { "ProductID": 17, "Name": "Komkommer - 500 g", "Price": 1.80 },
+        { "ProductID": 18, "Name": "Bloemkool - 600 g", "Price": 2.50 },
+        { "ProductID": 19, "Name": "Broccoli - 400 g", "Price": 2.00 },
+        { "ProductID": 20, "Name": "Spinazie - 250 g", "Price": 1.90 }
       ]
     },
     {
       "CategoryID": 5,
       "Name": "Fruit",
       "Products": [
-        { "ProductID": 21, "Name": "Appel" },
-        { "ProductID": 22, "Name": "Peer" },
-        { "ProductID": 23, "Name": "Aardbeien" },
-        { "ProductID": 24, "Name": "Frambozen" },
-        { "ProductID": 25, "Name": "Kers" }
+        { "ProductID": 21, "Name": "Appel - 500 g", "Price": 1.20 },
+        { "ProductID": 22, "Name": "Peer - 400 g", "Price": 1.50 },
+        { "ProductID": 23, "Name": "Aardbeien - 250 g", "Price": 2.10 },
+        { "ProductID": 24, "Name": "Frambozen - 250 g", "Price": 2.30 },
+        { "ProductID": 25, "Name": "Kers - 300 g", "Price": 2.00 }
       ]
     },
     {
       "CategoryID": 6,
       "Name": "Vlees",
       "Products": [
-        { "ProductID": 26, "Name": "Kipfilet" },
-        { "ProductID": 27, "Name": "SpareRibs" },
-        { "ProductID": 28, "Name": "Verse Worst" },
-        { "ProductID": 29, "Name": "Gehakt" },
-        { "ProductID": 30, "Name": "Hamburgers" }
+        { "ProductID": 26, "Name": "Kipfilet - 500 g", "Price": 5.00 },
+        { "ProductID": 27, "Name": "SpareRibs - 800 g", "Price": 7.50 },
+        { "ProductID": 28, "Name": "Verse Worst - 400 g", "Price": 4.20 },
+        { "ProductID": 29, "Name": "Gehakt - 500 g", "Price": 4.00 },
+        { "ProductID": 30, "Name": "Hamburgers - 4 stuks", "Price": 5.20 }
       ]
     },
     {
       "CategoryID": 7,
       "Name": "Kruiden",
       "Products": [
-        { "ProductID": 31, "Name": "Basilicum" },
-        { "ProductID": 32, "Name": "Peterselie" },
-        { "ProductID": 33, "Name": "Rozemarijn" },
-        { "ProductID": 34, "Name": "Tijm" },
-        { "ProductID": 35, "Name": "Koriander" }
+        { "ProductID": 31, "Name": "Basilicum - 30 g", "Price": 1.80 },
+        { "ProductID": 32, "Name": "Peterselie - 30 g", "Price": 1.40 },
+        { "ProductID": 33, "Name": "Rozemarijn - 30 g", "Price": 2.20 },
+        { "ProductID": 34, "Name": "Tijm - 30 g", "Price": 1.60 },
+        { "ProductID": 35, "Name": "Koriander - 30 g", "Price": 1.90 }
       ]
     },
     {
       "CategoryID": 8,
       "Name": "Vis",
       "Products": [
-        { "ProductID": 36, "Name": "Zalm" },
-        { "ProductID": 37, "Name": "Tonijn" },
-        { "ProductID": 38, "Name": "Makreel" },
-        { "ProductID": 39, "Name": "Haring" },
-        { "ProductID": 40, "Name": "Kabeljauw" }
+        { "ProductID": 36, "Name": "Zalm - 250 g", "Price": 8.50 },
+        { "ProductID": 37, "Name": "Tonijn - 200 g", "Price": 7.00 },
+        { "ProductID": 38, "Name": "Makreel - 250 g", "Price": 6.50 },
+        { "ProductID": 39, "Name": "Haring - 300 g", "Price": 4.00 },
+        { "ProductID": 40, "Name": "Kabeljauw - 500 g", "Price": 6.70 }
       ]
     },
     {
       "CategoryID": 9,
       "Name": "Brood",
       "Products": [
-        { "ProductID": 41, "Name": "Bruin Brood" },
-        { "ProductID": 42, "Name": "Wit Brood" },
-        { "ProductID": 43, "Name": "Volkoren Brood" },
-        { "ProductID": 44, "Name": "Meergranen Brood" },
-        { "ProductID": 45, "Name": "Rozijnenbrood" }
+        { "ProductID": 41, "Name": "Bruin Brood - 700 g", "Price": 2.00 },
+        { "ProductID": 42, "Name": "Wit Brood - 700 g", "Price": 1.80 },
+        { "ProductID": 43, "Name": "Volkoren Brood - 700 g", "Price": 2.10 },
+        { "ProductID": 44, "Name": "Meergranen Brood - 700 g", "Price": 2.30 },
+        { "ProductID": 45, "Name": "Rozijnenbrood - 600 g", "Price": 2.50 }
       ]
     },
     {
       "CategoryID": 10,
       "Name": "Aardappelen",
       "Products": [
-        { "ProductID": 46, "Name": "Friese Aardappelen" },
-        { "ProductID": 47, "Name": "Jonge Aardappelen" },
-        { "ProductID": 48, "Name": "Krieltjes" },
-        { "ProductID": 49, "Name": "Zoete Aardappelen" },
-        { "ProductID": 50, "Name": "Rode Aardappelen" }
+        { "ProductID": 46, "Name": "Friese Aardappelen - 1 kg", "Price": 2.00 },
+        { "ProductID": 47, "Name": "Jonge Aardappelen - 1 kg", "Price": 2.30 },
+        { "ProductID": 48, "Name": "Krieltjes - 500 g", "Price": 2.50 },
+        { "ProductID": 49, "Name": "Zoete Aardappelen - 1 kg", "Price": 3.00 },
+        { "ProductID": 50, "Name": "Rode Aardappelen - 1 kg", "Price": 2.40 }
       ]
     },
     {
       "CategoryID": 11,
       "Name": "Noten & Zaden",
       "Products": [
-        { "ProductID": 51, "Name": "Amandelen" },
-        { "ProductID": 52, "Name": "Hazelnoten" },
-        { "ProductID": 53, "Name": "Zonnebloempitten" },
-        { "ProductID": 54, "Name": "Chiazaad" },
-        { "ProductID": 55, "Name": "Cashewnoten" }
+        { "ProductID": 51, "Name": "Amandelen - 250 g", "Price": 3.50 },
+        { "ProductID": 52, "Name": "Hazelnoten - 250 g", "Price": 3.20 },
+        { "ProductID": 53, "Name": "Zonnebloempitten - 250 g", "Price": 2.40 },
+        { "ProductID": 54, "Name": "Chiazaad - 200 g", "Price": 3.00 },
+        { "ProductID": 55, "Name": "Cashewnoten - 250 g", "Price": 4.00 }
       ]
     },
     {
       "CategoryID": 12,
       "Name": "Chocolade",
       "Products": [
-        { "ProductID": 56, "Name": "Melkchocolade" },
-        { "ProductID": 57, "Name": "Pure Chocolade" },
-        { "ProductID": 58, "Name": "Witte Chocolade" },
-        { "ProductID": 59, "Name": "Chocoladerepen" },
-        { "ProductID": 60, "Name": "Chocoladetruffels" }
+        { "ProductID": 56, "Name": "Melkchocolade - 100 g", "Price": 2.20 },
+        { "ProductID": 57, "Name": "Pure Chocolade - 100 g", "Price": 2.50 },
+        { "ProductID": 58, "Name": "Witte Chocolade - 100 g", "Price": 2.40 },
+        { "ProductID": 59, "Name": "Chocoladerepen - 150 g", "Price": 3.00 },
+        { "ProductID": 60, "Name": "Chocoladetruffels - 150 g", "Price": 3.50 }
       ]
     }
   ],
+
   "MarketCategory": [
     {
       "MarketID": 101,
