@@ -32,7 +32,7 @@
           "kaartID": 4,
           "Name": "Rode biet",
           "img": "/kaarten/groente/Groente_rode_biet.png",
-          "collected": false
+          "collected": true
         }
       ]
     },
@@ -64,7 +64,7 @@
           "kaartID": 8,
           "Name": "Boter",
           "img": "/kaarten/zuivel/Zuivel_boter.png",
-          "collected": false
+          "collected": true
         }
       ]
     },
@@ -78,13 +78,13 @@
           "kaartID": 9,
           "Name": "Aardbeien",
           "img": "/kaarten/fruit/Fruit_aardbeien.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 10,
           "Name": "Appels",
           "img": "/kaarten/fruit/Fruit_appels.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 11,
@@ -110,13 +110,13 @@
           "kaartID": 13,
           "Name": "Kip",
           "img": "/kaarten/vlees/Vlees_kip.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 14,
           "Name": "Koe",
           "img": "/kaarten/vlees/Vlees_koe.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 15,
@@ -148,7 +148,7 @@
           "kaartID": 18,
           "Name": "Haring",
           "img": "/kaarten/vis/Vis_haring.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 19,
