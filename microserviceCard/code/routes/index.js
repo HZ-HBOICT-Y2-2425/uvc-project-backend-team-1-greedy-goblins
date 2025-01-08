@@ -19,7 +19,7 @@ router.get("/collecties", checkName, GetCollecties);
 router.get("/collecties/:id", checkName, getCollectieById);
 router.get("/kaart", checkName, getKaartById);
 
-router.put("/collecties", checkName, updateCollectie);
+router.put("/collectie", checkName, updateCollectie);
 router.put("/kaart", checkName, updateKaart);
 
 router.post("/getCode", checkName, generateDiscountCode);

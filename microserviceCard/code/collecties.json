@@ -8,7 +8,7 @@
       "collectieID": 1,
       "Name": "Groente",
       "UncollectedKaart": "/kaarten/uncollected/Groente_uncollected.png",
-      "kwartet": false,
+      "kwartet": true,
       "kaarten": [
         {
           "kaartID": 1,
@@ -40,30 +40,30 @@
       "collectieID": 2,
       "Name": "Zuivel",
       "UncollectedKaart": "/kaarten/uncollected/Zuivel_uncollected.png",
-      "kwartet": false,
+      "kwartet": true,
       "kaarten": [
         {
           "kaartID": 5,
           "Name": "Verse melk",
-          "img": "/kaarten/groente/Zuivel_verse_melk.png",
+          "img": "/kaarten/zuivel/Zuivel_verse_melk.png",
           "collected": false
         },
         {
           "kaartID": 6,
           "Name": "Kaas",
-          "img": "/kaarten/groente/Zuivel_kaas.png",
-          "collected": false
+          "img": "/kaarten/zuivel/Zuivel_kaas.png",
+          "collected": true
         },
         {
           "kaartID": 7,
           "Name": "Yogurt",
-          "img": "/kaarten/groente/Zuivel_yogurt.png",
+          "img": "/kaarten/zuivel/Zuivel_yogurt.png",
           "collected": false
         },
         {
           "kaartID": 8,
           "Name": "Boter",
-          "img": "/kaarten/groente/Zuivel_boter.png",
+          "img": "/kaarten/zuivel/Zuivel_boter.png",
           "collected": false
         }
       ]
@@ -72,30 +72,30 @@
       "collectieID": 3,
       "Name": "Fruit",
       "UncollectedKaart": "/kaarten/uncollected/Fruit_uncollected.png",
-      "kwartet": false,
+      "kwartet": true,
       "kaarten": [
         {
           "kaartID": 9,
           "Name": "Aardbeien",
-          "img": "/kaarten/groente/Fruit_aardbeien.png",
+          "img": "/kaarten/fruit/Fruit_aardbeien.png",
           "collected": false
         },
         {
           "kaartID": 10,
           "Name": "Appels",
-          "img": "/kaarten/groente/Fruit_appels.png",
+          "img": "/kaarten/fruit/Fruit_appels.png",
           "collected": false
         },
         {
           "kaartID": 11,
           "Name": "Peren",
-          "img": "/kaarten/groente/Fruit_peren.png",
+          "img": "/kaarten/fruit/Fruit_peren.png",
           "collected": false
         },
         {
           "kaartID": 12,
           "Name": "Perziken",
-          "img": "/kaarten/groente/Fruit_perziken.png",
+          "img": "/kaarten/fruit/Fruit_perziken.png",
           "collected": false
         }
       ]
@@ -104,30 +104,30 @@
       "collectieID": 4,
       "Name": "Vlees",
       "UncollectedKaart": "/kaarten/uncollected/Vlees_uncollected.png",
-      "kwartet": false,
+      "kwartet": true,
       "kaarten": [
         {
           "kaartID": 13,
           "Name": "Kip",
-          "img": "/kaarten/groente/Vlees_kip.png",
+          "img": "/kaarten/vlees/Vlees_kip.png",
           "collected": false
         },
         {
           "kaartID": 14,
           "Name": "Koe",
-          "img": "/kaarten/groente/Vlees_koe.png",
+          "img": "/kaarten/vlees/Vlees_koe.png",
           "collected": false
         },
         {
           "kaartID": 15,
           "Name": "Varken",
-          "img": "/kaarten/groente/Vlees_varken.png",
+          "img": "/kaarten/vlees/Vlees_varken.png",
           "collected": false
         },
         {
           "kaartID": 16,
           "Name": "Schaap",
-          "img": "/kaarten/groente/Vlees_schaap.png",
+          "img": "/kaarten/vlees/Vlees_schaap.png",
           "collected": false
         }
       ]
@@ -136,30 +136,30 @@
       "collectieID": 5,
       "Name": "Vis",
       "UncollectedKaart": "/kaarten/uncollected/Vis_uncollected.png",
-      "kwartet": false,
+      "kwartet": true,
       "kaarten": [
         {
           "kaartID": 17,
           "Name": "Zalm",
-          "img": "/kaarten/groente/Vis_zalm.png",
-          "collected": false
+          "img": "/kaarten/vis/Vis_zalm.png",
+          "collected": true
         },
         {
           "kaartID": 18,
           "Name": "Haring",
-          "img": "/kaarten/groente/Vis_haring.png",
+          "img": "/kaarten/vis/Vis_haring.png",
           "collected": false
         },
         {
           "kaartID": 19,
           "Name": "Kabeljauw",
-          "img": "/kaarten/groente/Vis_kabeljauw.png",
+          "img": "/kaarten/vis/Vis_kabeljauw.png",
           "collected": false
         },
         {
           "kaartID": 20,
           "Name": "Tonijn",
-          "img": "/kaarten/groente/Vis_tonijn.png",
+          "img": "/kaarten/vis/Vis_tonijn.png",
           "collected": false
         }
       ]
