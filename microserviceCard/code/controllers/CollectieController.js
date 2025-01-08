@@ -32,15 +32,10 @@ export async function getKaartById(req, res){
         }
 
         const collectie = collecties.find((col) => col.collectieID === collectieID);
-        console.log("Collectie:" + collectie);
         if (!collectie) {
             return res.status(404).send(`Collectie with ID ${collectieID} not found.`);
         }
-        console.log("Hij crasht hierna!");
-        console.log("Alles: " + collecties.kaarten);
-        console.log("Eentje: " + collecties[0].kaarten);
         const kaart = collecties[collectieID - 1].kaarten.find((card) => card.kaartID === kaartID);
-        console.log("Kaart:" + kaart);
         if (!kaart) {
             return res.status(404).send(`kaart with ID ${kaartID} not found in collectieID ${collectieID}.`);
         }
@@ -74,5 +69,64 @@ export async function updateCollecties(req, res) {
     return res.status(200).json({
         message: "Collectie updated successfully",
         collecties: existingCollectie,
+    });
+}
+
+export async function updateCollectie(req, res) {
+    const collectieID = parseInt(req.query.id)
+
+    if (!collectieID) {
+        return res.status(400).send("CollectieID is required.");
+    }
+
+    const collectieEntry = collecties.find(
+        (col) => col.collectieID === collectieID
+    )
+
+    if (!collectieEntry) {
+        return res.status(404).json({ error: "Collectie not found" });
+    }
+
+    collectieEntry.kwartet = !collectieEntry.kwartet;
+    await db.write();
+
+    res.json({
+        message: "Collectie status toggled",
+        collectieID,
+        kwartet: collectieEntry.kwartet,
+    });
+}
+
+export async function updateKaart(req, res) {
+    const collectieID = parseInt(req.query.collectieID);
+    const _kaartID = parseInt(req.query.kaartID);
+
+    if (!collectieID || !_kaartID) {
+        return res.status(400).send("CollectieID and kaartID are required.");
+    }
+
+    const collectieEntry = collecties.find(
+        (entry) => entry.collectieID === collectieID
+    );
+
+    if (!collectieEntry) {
+        return res.status(404).json({ error: "Collectie not found" });
+    }
+
+    const kaartEntry = collecties[collectieID - 1].kaarten.find(
+        (card) => card.kaartID === _kaartID
+    );
+
+    if (!kaartEntry) {
+        return res.status(404).json({ error: "Kaart not found" });
+    }
+
+    kaartEntry.collected = !kaartEntry.collected;
+    await db.write();
+
+    res.json({
+        message: "Collected status toggled",
+        _kaartID,
+        collected: kaartEntry.collected,
     });
 }
