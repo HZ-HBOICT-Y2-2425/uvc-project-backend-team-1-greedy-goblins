@@ -20,13 +20,13 @@
           "kaartID": 2,
           "Name": "Aardappels",
           "img": "/kaarten/groente/Groente_aardappels.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 3,
           "Name": "Radijs",
           "img": "/kaarten/groente/Groente_radijs.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 4,
@@ -46,7 +46,7 @@
           "kaartID": 5,
           "Name": "Verse melk",
           "img": "/kaarten/zuivel/Zuivel_verse_melk.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 6,
@@ -58,7 +58,7 @@
           "kaartID": 7,
           "Name": "Yogurt",
           "img": "/kaarten/zuivel/Zuivel_yogurt.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 8,
@@ -90,13 +90,13 @@
           "kaartID": 11,
           "Name": "Peren",
           "img": "/kaarten/fruit/Fruit_peren.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 12,
           "Name": "Perziken",
           "img": "/kaarten/fruit/Fruit_perziken.png",
-          "collected": false
+          "collected": true
         }
       ]
     },
@@ -122,13 +122,13 @@
           "kaartID": 15,
           "Name": "Varken",
           "img": "/kaarten/vlees/Vlees_varken.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 16,
           "Name": "Schaap",
           "img": "/kaarten/vlees/Vlees_schaap.png",
-          "collected": false
+          "collected": true
         }
       ]
     },
@@ -154,13 +154,13 @@
           "kaartID": 19,
           "Name": "Kabeljauw",
           "img": "/kaarten/vis/Vis_kabeljauw.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 20,
           "Name": "Tonijn",
           "img": "/kaarten/vis/Vis_tonijn.png",
-          "collected": false
+          "collected": true
         }
       ]
     }
