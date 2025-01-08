@@ -42,6 +42,7 @@ export async function getKaartById(req, res){
 
         res.status(200).send(kaart);
     } catch (error) {
+        console.log(error);
         res.status(500).send("Server error");
     }
 }
