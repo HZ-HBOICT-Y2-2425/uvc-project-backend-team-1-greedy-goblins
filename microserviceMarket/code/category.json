@@ -8,132 +8,132 @@
       "CategoryID": 1,
       "Name": "Kaas",
       "Products": [
-        { "ProductID": 1, "Name": "Goudse Kaas - 400 g", "Price": 2.45 },
-        { "ProductID": 2, "Name": "Parmezaanse Kaas - 200 g", "Price": 2.95 },
-        { "ProductID": 3, "Name": "Brie - 200 g", "Price": 1.90 },
-        { "ProductID": 4, "Name": "Geitenkaas - 300 g", "Price": 3.10 },
-        { "ProductID": 5, "Name": "Cheddar - 250 g", "Price": 3.25 }
+        { "ProductID": 1, "Name": "Goudse Kaas - 400 g", "Price": 2.45, "Image" : "https://images.pexels.com/photos/14544601/pexels-photo-14544601.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 2, "Name": "Parmezaanse Kaas - 200 g", "Price": 2.95, "Image" : "https://images.pexels.com/photos/14544601/pexels-photo-14544601.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 3, "Name": "Brie - 200 g", "Price": 1.90, "Image" : "https://images.pexels.com/photos/14544601/pexels-photo-14544601.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 4, "Name": "Geitenkaas - 300 g", "Price": 3.10, "Image" : "https://images.pexels.com/photos/14544601/pexels-photo-14544601.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 5, "Name": "Cheddar - 250 g", "Price": 3.25, "Image" : "https://images.pexels.com/photos/14544601/pexels-photo-14544601.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 2,
       "Name": "Melk",
       "Products": [
-        { "ProductID": 6, "Name": "Halfvolle Melk - 1L", "Price": 1.10 },
-        { "ProductID": 7, "Name": "Volle Melk - 1L", "Price": 1.20 },
-        { "ProductID": 8, "Name": "Karnemelk - 1L", "Price": 0.95 },
-        { "ProductID": 9, "Name": "Lactosevrije Melk - 1L", "Price": 1.40 },
-        { "ProductID": 10, "Name": "Chocolademelk - 1L", "Price": 1.80 }
+        { "ProductID": 6, "Name": "Halfvolle Melk - 1L", "Price": 1.10, "Image" : "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg"},
+        { "ProductID": 7, "Name": "Volle Melk - 1L", "Price": 1.20, "Image" : "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" },
+        { "ProductID": 8, "Name": "Karnemelk - 1L", "Price": 0.95, "Image" : "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" },
+        { "ProductID": 9, "Name": "Lactosevrije Melk - 1L", "Price": 1.40, "Image" : "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" },
+        { "ProductID": 10, "Name": "Chocolademelk - 1L", "Price": 1.80, "Image" : "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" }
       ]
     },
     {
       "CategoryID": 3,
       "Name": "Eieren",
       "Products": [
-        { "ProductID": 11, "Name": "Vrije Uitloop Eieren - 10 stuks", "Price": 2.60 },
-        { "ProductID": 12, "Name": "Biologische Eieren - 10 stuks", "Price": 3.00 },
-        { "ProductID": 13, "Name": "Scharreleieren - 10 stuks", "Price": 2.20 },
-        { "ProductID": 14, "Name": "Omega-3 Eieren - 10 stuks", "Price": 3.20 },
-        { "ProductID": 15, "Name": "Kwarkei - 6 stuks", "Price": 2.50 }
+        { "ProductID": 11, "Name": "Vrije Uitloop Eieren - 10 stuks", "Price": 2.60, "Image" : "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=600"  },
+        { "ProductID": 12, "Name": "Biologische Eieren - 10 stuks", "Price": 3.00, "Image" : "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=600"  },
+        { "ProductID": 13, "Name": "Scharreleieren - 10 stuks", "Price": 2.20, "Image" : "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=600"  },
+        { "ProductID": 14, "Name": "Omega-3 Eieren - 10 stuks", "Price": 3.20, "Image" : "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=600"  },
+        { "ProductID": 15, "Name": "Kwarkei - 6 stuks", "Price": 2.50, "Image" : "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=600"  }
       ]
     },
     {
       "CategoryID": 4,
       "Name": "Groente",
       "Products": [
-        { "ProductID": 16, "Name": "IJsbergsla - 200 g", "Price": 1.50 },
-        { "ProductID": 17, "Name": "Komkommer - 500 g", "Price": 1.80 },
-        { "ProductID": 18, "Name": "Bloemkool - 600 g", "Price": 2.50 },
-        { "ProductID": 19, "Name": "Broccoli - 400 g", "Price": 2.00 },
-        { "ProductID": 20, "Name": "Spinazie - 250 g", "Price": 1.90 }
+        { "ProductID": 16, "Name": "IJsbergsla - 200 g", "Price": 1.50, "Image" : "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 17, "Name": "Komkommer - 500 g", "Price": 1.80, "Image" : "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600" }, 
+        { "ProductID": 18, "Name": "Bloemkool - 600 g", "Price": 2.50, "Image" : "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 19, "Name": "Broccoli - 400 g", "Price": 2.00, "Image" : "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600" }, 
+        { "ProductID": 20, "Name": "Spinazie - 250 g", "Price": 1.90, "Image" : "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 5,
       "Name": "Fruit",
       "Products": [
-        { "ProductID": 21, "Name": "Appel - 500 g", "Price": 1.20 },
-        { "ProductID": 22, "Name": "Peer - 400 g", "Price": 1.50 },
-        { "ProductID": 23, "Name": "Aardbeien - 250 g", "Price": 2.10 },
-        { "ProductID": 24, "Name": "Frambozen - 250 g", "Price": 2.30 },
-        { "ProductID": 25, "Name": "Kers - 300 g", "Price": 2.00 }
+        { "ProductID": 21, "Name": "Appel - 500 g", "Price": 1.20, "Image" : "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 22, "Name": "Peer - 400 g", "Price": 1.50, "Image" : "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 23, "Name": "Aardbeien - 250 g", "Price": 2.10, "Image" : "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 24, "Name": "Frambozen - 250 g", "Price": 2.30, "Image" : "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 25, "Name": "Kers - 300 g", "Price": 2.00, "Image" : "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 6,
       "Name": "Vlees",
       "Products": [
-        { "ProductID": 26, "Name": "Kipfilet - 500 g", "Price": 5.00 },
-        { "ProductID": 27, "Name": "SpareRibs - 800 g", "Price": 7.50 },
-        { "ProductID": 28, "Name": "Verse Worst - 400 g", "Price": 4.20 },
-        { "ProductID": 29, "Name": "Gehakt - 500 g", "Price": 4.00 },
-        { "ProductID": 30, "Name": "Hamburgers - 4 stuks", "Price": 5.20 }
+        { "ProductID": 26, "Name": "Kipfilet - 500 g", "Price": 5.00, "Image" : "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 27, "Name": "SpareRibs - 800 g", "Price": 7.50, "Image" : "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 28, "Name": "Verse Worst - 400 g", "Price": 4.20, "Image" : "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 29, "Name": "Gehakt - 500 g", "Price": 4.00, "Image" : "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 30, "Name": "Hamburgers - 4 stuks", "Price": 5.20, "Image" : "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 7,
       "Name": "Kruiden",
       "Products": [
-        { "ProductID": 31, "Name": "Basilicum - 30 g", "Price": 1.80 },
-        { "ProductID": 32, "Name": "Peterselie - 30 g", "Price": 1.40 },
-        { "ProductID": 33, "Name": "Rozemarijn - 30 g", "Price": 2.20 },
-        { "ProductID": 34, "Name": "Tijm - 30 g", "Price": 1.60 },
-        { "ProductID": 35, "Name": "Koriander - 30 g", "Price": 1.90 }
+        { "ProductID": 31, "Name": "Basilicum - 30 g", "Price": 1.80, "Image" : "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 32, "Name": "Peterselie - 30 g", "Price": 1.40, "Image" : "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 33, "Name": "Rozemarijn - 30 g", "Price": 2.20, "Image" : "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 34, "Name": "Tijm - 30 g", "Price": 1.60, "Image" : "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 35, "Name": "Koriander - 30 g", "Price": 1.90, "Image" : "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 8,
       "Name": "Vis",
       "Products": [
-        { "ProductID": 36, "Name": "Zalm - 250 g", "Price": 8.50 },
-        { "ProductID": 37, "Name": "Tonijn - 200 g", "Price": 7.00 },
-        { "ProductID": 38, "Name": "Makreel - 250 g", "Price": 6.50 },
-        { "ProductID": 39, "Name": "Haring - 300 g", "Price": 4.00 },
-        { "ProductID": 40, "Name": "Kabeljauw - 500 g", "Price": 6.70 }
+        { "ProductID": 36, "Name": "Zalm - 250 g", "Price": 8.50, "Image" : "https://images.pexels.com/photos/3029526/pexels-photo-3029526.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 37, "Name": "Tonijn - 200 g", "Price": 7.00, "Image" : "https://images.pexels.com/photos/3029526/pexels-photo-3029526.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 38, "Name": "Makreel - 250 g", "Price": 6.50, "Image" : "https://images.pexels.com/photos/3029526/pexels-photo-3029526.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 39, "Name": "Haring - 300 g", "Price": 4.00, "Image" : "https://images.pexels.com/photos/3029526/pexels-photo-3029526.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 40, "Name": "Kabeljauw - 500 g", "Price": 6.70, "Image" : "https://images.pexels.com/photos/3029526/pexels-photo-3029526.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 9,
       "Name": "Brood",
       "Products": [
-        { "ProductID": 41, "Name": "Bruin Brood - 700 g", "Price": 2.00 },
-        { "ProductID": 42, "Name": "Wit Brood - 700 g", "Price": 1.80 },
-        { "ProductID": 43, "Name": "Volkoren Brood - 700 g", "Price": 2.10 },
-        { "ProductID": 44, "Name": "Meergranen Brood - 700 g", "Price": 2.30 },
-        { "ProductID": 45, "Name": "Rozijnenbrood - 600 g", "Price": 2.50 }
+        { "ProductID": 41, "Name": "Bruin Brood - 700 g", "Price": 2.00, "Image" : "https://images.pexels.com/photos/1118332/pexels-photo-1118332.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 42, "Name": "Wit Brood - 700 g", "Price": 1.80, "Image" : "https://images.pexels.com/photos/1118332/pexels-photo-1118332.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 43, "Name": "Volkoren Brood - 700 g", "Price": 2.10, "Image" : "https://images.pexels.com/photos/1118332/pexels-photo-1118332.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 44, "Name": "Meergranen Brood - 700 g", "Price": 2.30, "Image" : "https://images.pexels.com/photos/1118332/pexels-photo-1118332.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 45, "Name": "Rozijnenbrood - 600 g", "Price": 2.50, "Image" : "https://images.pexels.com/photos/1118332/pexels-photo-1118332.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 10,
       "Name": "Aardappelen",
       "Products": [
-        { "ProductID": 46, "Name": "Friese Aardappelen - 1 kg", "Price": 2.00 },
-        { "ProductID": 47, "Name": "Jonge Aardappelen - 1 kg", "Price": 2.30 },
-        { "ProductID": 48, "Name": "Krieltjes - 500 g", "Price": 2.50 },
-        { "ProductID": 49, "Name": "Zoete Aardappelen - 1 kg", "Price": 3.00 },
-        { "ProductID": 50, "Name": "Rode Aardappelen - 1 kg", "Price": 2.40 }
+        { "ProductID": 46, "Name": "Friese Aardappelen - 1 kg", "Price": 2.00, "Image" : "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 47, "Name": "Jonge Aardappelen - 1 kg", "Price": 2.30, "Image" : "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 48, "Name": "Krieltjes - 500 g", "Price": 2.50, "Image" : "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 49, "Name": "Zoete Aardappelen - 1 kg", "Price": 3.00, "Image" : "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 50, "Name": "Rode Aardappelen - 1 kg", "Price": 2.40, "Image" : "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 11,
       "Name": "Noten & Zaden",
       "Products": [
-        { "ProductID": 51, "Name": "Amandelen - 250 g", "Price": 3.50 },
-        { "ProductID": 52, "Name": "Hazelnoten - 250 g", "Price": 3.20 },
-        { "ProductID": 53, "Name": "Zonnebloempitten - 250 g", "Price": 2.40 },
-        { "ProductID": 54, "Name": "Chiazaad - 200 g", "Price": 3.00 },
-        { "ProductID": 55, "Name": "Cashewnoten - 250 g", "Price": 4.00 }
+        { "ProductID": 51, "Name": "Amandelen - 250 g", "Price": 3.50, "Image" : "https://images.pexels.com/photos/6068869/pexels-photo-6068869.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 52, "Name": "Hazelnoten - 250 g", "Price": 3.20, "Image" : "https://images.pexels.com/photos/6068869/pexels-photo-6068869.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 53, "Name": "Zonnebloempitten - 250 g", "Price": 2.40, "Image" : "https://images.pexels.com/photos/6068869/pexels-photo-6068869.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 54, "Name": "Chiazaad - 200 g", "Price": 3.00, "Image" : "https://images.pexels.com/photos/6068869/pexels-photo-6068869.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 55, "Name": "Cashewnoten - 250 g", "Price": 4.00, "Image" : "https://images.pexels.com/photos/6068869/pexels-photo-6068869.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     },
     {
       "CategoryID": 12,
       "Name": "Chocolade",
       "Products": [
-        { "ProductID": 56, "Name": "Melkchocolade - 100 g", "Price": 2.20 },
-        { "ProductID": 57, "Name": "Pure Chocolade - 100 g", "Price": 2.50 },
-        { "ProductID": 58, "Name": "Witte Chocolade - 100 g", "Price": 2.40 },
-        { "ProductID": 59, "Name": "Chocoladerepen - 150 g", "Price": 3.00 },
-        { "ProductID": 60, "Name": "Chocoladetruffels - 150 g", "Price": 3.50 }
+        { "ProductID": 56, "Name": "Melkchocolade - 100 g", "Price": 2.20, "Image" : "https://images.pexels.com/photos/4110101/pexels-photo-4110101.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 57, "Name": "Pure Chocolade - 100 g", "Price": 2.50, "Image" : "https://images.pexels.com/photos/4110101/pexels-photo-4110101.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 58, "Name": "Witte Chocolade - 100 g", "Price": 2.40, "Image" : "https://images.pexels.com/photos/4110101/pexels-photo-4110101.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 59, "Name": "Chocoladerepen - 150 g", "Price": 3.00, "Image" : "https://images.pexels.com/photos/4110101/pexels-photo-4110101.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { "ProductID": 60, "Name": "Chocoladetruffels - 150 g", "Price": 3.50, "Image" : "https://images.pexels.com/photos/4110101/pexels-photo-4110101.jpeg?auto=compress&cs=tinysrgb&w=600" }
       ]
     }
   ],
