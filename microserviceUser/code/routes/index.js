@@ -18,14 +18,14 @@ router.get("/", (req, res) => {
 });
 
 router.get("/users", checkName, getAllUsers);
-router.post("/users/add", checkName, createUser);
+router.post("/users", checkName, createUser);
 router.get("/orderByUser/:id", checkName, getUserWithOrders);
 
 /*
  * Start of Order routes
  */
 router.get("/allOrders", checkName, getAllOrders);
-router.get("/Order/:id", checkName, getOrderById);
-router.post("/Order/add", checkName, createOrder);
+router.get("/order/:id", checkName, getOrderById);
+router.post("/order", checkName, createOrder);
 
 export default router;
