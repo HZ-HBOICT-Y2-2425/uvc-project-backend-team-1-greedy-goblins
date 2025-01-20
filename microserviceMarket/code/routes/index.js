@@ -19,31 +19,31 @@ import {
   changeBoolean,
 } from "../controllers/marketInfoController.js";
 import { checkName } from "../middleware/exampleMiddleware.js";
+
 const router = express.Router();
 
-// routes
+// Root route
 router.get("/", (req, res) => {
-  res.json("hi, I am the Microservice Market");
+  res.json("Hi, I am the Microservice Market");
 });
 
-// category routes
-router.get("/categorys", checkName, GetCategorys);
-router.get("/category/:id", checkName, getCategoryById);
-router.post("/category/add", checkName, AddCategory);
-router.delete("/category/delete/:id", checkName, deleteCategory);
-router.put("/category/update/:id", checkName, updateCategory);
+// Category routes
+router.get("/categories", checkName, GetCategorys); // Meervoud voor consistentie
+router.get("/categories/:id", checkName, getCategoryById); // Gebruik enkelvoud en :id
+router.post("/categories", checkName, AddCategory); // POST voor toevoegen
+router.delete("/categories/:id", checkName, deleteCategory); // DELETE voor verwijderen
+router.put("/categories/:id", checkName, updateCategory); // PUT voor updaten
 
-// location routes
+// Location routes
 router.get("/locations", checkName, GetLocations);
-router.get("/location/:id", checkName, FetchLocationById);
-router.post("/location/add", checkName, AddLocation);
-router.delete("/location/delete/:id", checkName, deleteLocations);
-router.put("/location/update/:id", checkName, updateLocation);
+router.get("/locations/:id", checkName, FetchLocationById);
+router.post("/locations", checkName, AddLocation);
+router.delete("/locations/:id", checkName, deleteLocations);
+router.put("/locations/:id", checkName, updateLocation);
 
-// marketInfo routes
-// Met deze routes roepen we de tabel aan die de info samenvoegt van de markt, locatie en categorie
-router.get("/MarketInfo", checkName, marketInfoList);
-router.get("/MarketInfo/:id", checkName, marketInfo);
-router.put("/changeBoolean/:id", checkName, changeBoolean);
+// MarketInfo routes
+router.get("/market-info", checkName, marketInfoList); // RESTful: lowercase met koppeltekens
+router.get("/market-info/:id", checkName, marketInfo);
+router.put("/market-info/:id/boolean", checkName, changeBoolean); // Meer beschrijvende URI
 
 export default router;

@@ -19,6 +19,5 @@ const microserviceCardProxy = createProxyMiddleware({
 router.use("/microserviceMarket", microserviceMarketProxy);
 router.use("/microserviceUser", microserviceUserProxy);
 router.use("/microserviceCard", microserviceCardProxy);
-// router.use('/locations', microserviceProxy);
 
 export default router;
