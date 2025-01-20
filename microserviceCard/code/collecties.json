@@ -40,7 +40,7 @@
       "collectieID": 2,
       "Name": "Zuivel",
       "UncollectedKaart": "/kaarten/uncollected/Zuivel_uncollected.png",
-      "kwartet": true,
+      "kwartet": false,
       "kaarten": [
         {
           "kaartID": 5,
@@ -128,7 +128,7 @@
           "kaartID": 16,
           "Name": "Schaap",
           "img": "/kaarten/vlees/Vlees_schaap.png",
-          "collected": false
+          "collected": true
         }
       ]
     },
@@ -154,13 +154,13 @@
           "kaartID": 19,
           "Name": "Kabeljauw",
           "img": "/kaarten/vis/Vis_kabeljauw.png",
-          "collected": false
+          "collected": true
         },
         {
           "kaartID": 20,
           "Name": "Tonijn",
           "img": "/kaarten/vis/Vis_tonijn.png",
-          "collected": false
+          "collected": true
         }
       ]
     }
